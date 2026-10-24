@@ -103,7 +103,8 @@ def _zhipu_embed(texts: list[str]) -> list[list[float]]:
         base_url=os.getenv("LLM_BASE_URL"),
     )
     resp = client.embeddings.create(model="embedding-3", input=texts)
-    return [d.embedding for d in resp.data]
+    import numpy as np
+    return np.array([d.embedding for d in resp.data])
 
 
 def load_corpus() -> dict[str, str]:

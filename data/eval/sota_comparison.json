@@ -1,0 +1,198 @@
+{
+  "n_questions": 27,
+  "policy_f1_avg": 0.6049,
+  "traceability_hit_rate": 0.7037,
+  "validity_correct": 14,
+  "invalid_answers": 5,
+  "rows": [
+    {
+      "item_id": "MU-0001",
+      "q_type": "multi_hop",
+      "verdict": "answered",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "MU-0002",
+      "q_type": "multi_hop",
+      "verdict": "answered",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "VA-0003",
+      "q_type": "validity",
+      "verdict": "invalid（知识截止声明/拒答）",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "VA-0004",
+      "q_type": "validity",
+      "verdict": "wrong（未给出有效时效判断）",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0005",
+      "q_type": "validity",
+      "verdict": "wrong（未给出有效时效判断）",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0006",
+      "q_type": "validity",
+      "verdict": "wrong（未给出有效时效判断）",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0007",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0008",
+      "q_type": "validity",
+      "verdict": "wrong（未给出有效时效判断）",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0009",
+      "q_type": "validity",
+      "verdict": "wrong（未给出有效时效判断）",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0010",
+      "q_type": "validity",
+      "verdict": "invalid（知识截止声明/拒答）",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "VA-0011",
+      "q_type": "validity",
+      "verdict": "invalid（知识截止声明/拒答）",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "VA-0012",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0013",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0014",
+      "q_type": "validity",
+      "verdict": "invalid（知识截止声明/拒答）",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "VA-0015",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 0.6667,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0016",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0017",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0018",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0019",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0020",
+      "q_type": "validity",
+      "verdict": "invalid（知识截止声明/拒答）",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "VA-0021",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0022",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0023",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0024",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 0.0,
+      "cite": false
+    },
+    {
+      "item_id": "VA-0025",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0026",
+      "q_type": "validity",
+      "verdict": "wrong（未给出有效时效判断）",
+      "f1": 1.0,
+      "cite": true
+    },
+    {
+      "item_id": "VA-0027",
+      "q_type": "validity",
+      "verdict": "correct",
+      "f1": 1.0,
+      "cite": true
+    }
+  ]
+}
