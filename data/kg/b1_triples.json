@@ -1,0 +1,3273 @@
+[
+  {
+    "file_id": "sz_《“苏州名品”管理办法》解读",
+    "source_file": "sz_《“苏州名品”管理办法》解读.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 138.1,
+    "usage_tokens": 10328,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_《关于进一步调整苏州市区积分落户计分标准的通告》的政策解读",
+    "source_file": "sz_《关于进一步调整苏州市区积分落户计分标准的通告》的政策解读.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 12.38,
+    "usage_tokens": 1364,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_《市政府关于印发苏州市服务业扩能提质行动方案(2026～2030年)的通知》解读",
+    "source_file": "sz_《市政府关于印发苏州市服务业扩能提质行动方案(2026～2030年)的通知》解读.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 66.32,
+    "usage_tokens": 5919,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏州市服务业扩能提质行动方案（2026～2030年）",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "关于推进服务业扩能提质的意见",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "4月21日，国务院印发了《关于推进服务业扩能提质的意见》。……《方案》深入贯彻落实国家《意见》和省《行动方案》",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市服务业扩能提质行动方案（2026～2030年）",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "江苏省服务业扩能提质行动方案",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "6月7日，省政府印发了《江苏省服务业扩能提质行动方案》。……《方案》深入贯彻落实国家《意见》和省《行动方案》，并与我市服务业“1840”体系建设紧密衔接",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_《苏州市促进入境旅游若干措施》政策解读",
+    "source_file": "sz_《苏州市促进入境旅游若干措施》政策解读.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 123.85,
+    "usage_tokens": 10322,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "一是自主外联来苏奖励。鼓励旅行社和在线旅游平台自主外联境外游客和在华外国人来苏过夜，达到奖励门槛的，按人天数给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S2",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "二是地接来苏奖励。鼓励旅行社地接境外游客和在华外国人来苏过夜，按人天数给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S3",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "三是组织来苏一日游奖励。鼓励旅行社组织境外游客和在华外国人来苏开展邮轮一日游、学生研学一日游，达到奖励门槛的，按人天数给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S4",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "一是境外推广载体扶持。支持在境外设立并运营苏州入境旅游推广中心，常设苏州入境旅游主题门店，达到举办同业推介会次数、组织当地文旅企业、机构来苏踩线人天数要求的，给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S5",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "二是境内推广载体扶持。支持文旅企业在上海、无锡、南京、杭州等地机场设立苏州入境旅游服务中心，达到接待问询人次数、精准投放旅游资料份数、实现有效客源转化要求的，给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S6",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "三是境外市场推广扶持。支持文旅企业积极参与境外旅游展演、展览、展销等活动，提升苏州文旅国际影响力，并符合条件的，给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S7",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "一是创新深度游精品线路。鼓励旅行社和在线旅游平台推出在苏州的中医养生、工业旅游、体育休闲等主题入境旅游精品线路产品，符合条件的，给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S8",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "二是健全外语导游人才队伍。鼓励国家高级及以上导游建立个人工作室，发挥工作室孵化作用，达到培育在苏州新注册或转入外语导游数量、每名导游为入境旅游团组提供外语导游服务人天数、开展培训交流活动次数要求的，给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S9",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "鼓励开发销售入境游客苏州一卡通，通过入境游客身份激活达到奖励门槛的，按张数给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市促进入境旅游若干措施#S10",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "鼓励新设立离境退税消费点位，达到离境退税笔数、“即买即退”业务量占比要求的，给予奖励",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_旅行社",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "鼓励旅行社和在线旅游平台自主外联境外游客和在华外国人来苏过夜",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_在线旅游平台",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "鼓励旅行社和在线旅游平台自主外联境外游客和在华外国人来苏过夜",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S2",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_旅行社",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "鼓励旅行社地接境外游客和在华外国人来苏过夜",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S3",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_旅行社",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "鼓励旅行社组织境外游客和在华外国人来苏开展邮轮一日游、学生研学一日游",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S4",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_文旅企业",
+        "object_type": "Condition",
+        "confidence": 0.4,
+        "evidence": "支持在境外设立并运营苏州入境旅游推广中心（原文未明示申报主体，参照同部分“支持文旅企业”表述推断）",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S5",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_文旅企业",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "支持文旅企业在上海、无锡、南京、杭州等地机场设立苏州入境旅游服务中心",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S6",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_文旅企业",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "支持文旅企业积极参与境外旅游展演、展览、展销等活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S7",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_旅行社",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "鼓励旅行社和在线旅游平台推出在苏州的中医养生、工业旅游、体育休闲等主题入境旅游精品线路产品",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S7",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_industry_在线旅游平台",
+        "object_type": "Condition",
+        "confidence": 0.9,
+        "evidence": "鼓励旅行社和在线旅游平台推出在苏州的中医养生、工业旅游、体育休闲等主题入境旅游精品线路产品",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施#S8",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "cond_qual_高级导游",
+        "object_type": "Condition",
+        "confidence": 0.5,
+        "evidence": "鼓励国家高级及以上导游建立个人工作室（申报主体为导游个人而非企业，勉强映射至qualifications字段）",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市促进入境旅游若干措施",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "旅游强国建设“十五五”规划",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "在《旅游强国建设“十五五”规划》中，苏州被列为入境旅游重点城市，是入境旅游主干网络的支点城市之一（仅为背景表述，非明示“依据X制定”）",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_《苏州市化工重点监测点认定管理实施细则》解读",
+    "source_file": "sz_《苏州市化工重点监测点认定管理实施细则》解读.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 124.17,
+    "usage_tokens": 9672,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏州市化工重点监测点认定管理实施细则",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏工信规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "2025年12月，经省政府同意，省工信厅等四部门联合印发了《江苏省化工重点监测点认定管理办法》（苏工信规〔2025〕5号）……为贯彻落实省级文件精神，我市立足产业实际和发展需求……制定了本《实施细则》",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市化工重点监测点认定管理实施细则",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏州市原化工重点监测点认定程序和监管办法（文号不详）",
+        "object_type": "Policy",
+        "confidence": 0.5,
+        "evidence": "对原认定程序和监管办法进行全面优化升级，制定了本《实施细则》",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市化工重点监测点认定管理实施细则",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市化工重点监测点认定管理实施细则#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.75,
+        "evidence": "明确了化工重点监测点认定需要提供的材料，认定工作流程包括县级初审、市级审核、审核公示、审定公布等程序",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市化工重点监测点认定管理实施细则#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "苏州市化工重点监测点认定管理实施细则#C1{field=industry_name;op=CONTAINS;value=化工}",
+        "object_type": "Condition",
+        "confidence": 0.85,
+        "evidence": "为规范化工园区外存量化工生产企业管理，促进企业本质安全环保水平提升",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市化工重点监测点认定管理实施细则#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "苏州市化工重点监测点认定管理实施细则#C2{field=region_code;op=NE;value=化工园区内}",
+        "object_type": "Condition",
+        "confidence": 0.65,
+        "evidence": "为规范化工园区外存量化工生产企业管理",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市化工重点监测点认定管理实施细则#S1",
+        "subject_type": "Subsidy",
+        "relation": "受理于",
+        "object_id": "苏州市工业和信息化局",
+        "object_type": "Department",
+        "confidence": 0.45,
+        "evidence": "来源：苏州市工业和信息化局",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_《苏州市职工生育保险管理办法》解读",
+    "source_file": "sz_《苏州市职工生育保险管理办法》解读.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 179.77,
+    "usage_tokens": 14614,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "P_SZ_2015",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "P_JS_94",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "2014年10月1日，江苏省职工生育保险规定（省人民政府令第94号）正式实施。为贯彻实施省规章，2015年2月5日，苏州市政府第34次常务会议讨论通过《苏州市职工生育保险管理办法》，自2015年5月1日起施行。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "P_JS_94",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "评估认为：《办法》结合苏州实际情况，对贯彻省规章做出了具体规定，结构科学、逻辑严密，可操作性较强。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "P_SZ_2015",
+        "object_type": "Policy",
+        "confidence": 0.6,
+        "evidence": "《苏州市职工生育保险管理办法》（以下简称《办法》）已于近日修订印发……修改了原《办法》中所有关于“晚婚”“晚育”的奖励性待遇或相关限制性表述。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "P_SZ_2025REV#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "根据国家、省文件，修订了生育津贴、产前检查等待遇的支付标准及支付对象，增加了直接支付给个人的表述。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "P_SZ_2025REV#S2",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "根据国家、省文件，修订了生育津贴、产前检查等待遇的支付标准及支付对象，增加了直接支付给个人的表述。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "P_SZ_2025REV#S3",
+        "object_type": "Subsidy",
+        "confidence": 0.8,
+        "evidence": "调整了领取失业金人员生育保险待遇，同时为后续进一步实施灵活就业人员生育保险待遇等政策留下空间。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2015",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "P_SZ_2015#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "具体是删除了原《办法》第十九条关于晚育增加30天津贴的表述、第三十二条关于晚育享受护理假的表述。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2015",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "P_SZ_2015#S2",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "具体是删除了原《办法》第十九条关于晚育增加30天津贴的表述、第三十二条关于晚育享受护理假的表述。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV#S1",
+        "subject_type": "Subsidy",
+        "relation": "受理于",
+        "object_id": "DEPT_SZYBJ",
+        "object_type": "Department",
+        "confidence": 0.6,
+        "evidence": "《办法》规定的生育保险待遇的结付流程、报销流程、涉及材料等在实践中均已通过数据共享等方式优化减省，且已有医保部门相关实施文件予以明确。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV#S2",
+        "subject_type": "Subsidy",
+        "relation": "受理于",
+        "object_id": "DEPT_SZYBJ",
+        "object_type": "Department",
+        "confidence": 0.6,
+        "evidence": "修订稿删除了《办法》中过于具体的经办规程内容，授权医保部门另行制定。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "P_SZ_2025REV#S3",
+        "subject_type": "Subsidy",
+        "relation": "受理于",
+        "object_id": "DEPT_SZYBJ",
+        "object_type": "Department",
+        "confidence": 0.6,
+        "evidence": "修订稿删除了《办法》中过于具体的经办规程内容，授权医保部门另行制定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_《苏州市重污染天气应急预案》政策解读",
+    "source_file": "sz_《苏州市重污染天气应急预案》政策解读.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 39.51,
+    "usage_tokens": 3774,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "《苏州市重污染天气应急预案》",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《江苏省重污染天气应急预案》",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "2025年5月江苏省人民政府办公厅印发《江苏省重污染天气应急预案》……为充分衔接省预案的预警分级与响应机制，确保稳妥、有序做好重污染天气应对工作，我市对市级预案进行修订，形成《苏州市重污染天气应急预案》",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "《苏州市重污染天气应急预案》",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《中华人民共和国生态环境法典》",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "根据《中华人民共和国生态环境法典》《中华人民共和国大气污染防治法》等法规，地方人民政府应建立健全重污染天气监测预警机制，制定重污染天气应急预案",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "《苏州市重污染天气应急预案》",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《中华人民共和国大气污染防治法》",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "根据《中华人民共和国生态环境法典》《中华人民共和国大气污染防治法》等法规，地方人民政府应建立健全重污染天气监测预警机制，制定重污染天气应急预案",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "《苏州市重污染天气应急预案》",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "旧版《苏州市重污染天气应急预案》（名称未在原文给出，待人工确认）",
+        "object_type": "Policy",
+        "confidence": 0.5,
+        "evidence": "为充分衔接省预案的预警分级与响应机制……我市对市级预案进行修订，形成《苏州市重污染天气应急预案》",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_一图读懂丨关于支持青年社区建设的若干措施",
+    "source_file": "sz_一图读懂丨关于支持青年社区建设的若干措施.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 10.48,
+    "usage_tokens": 1361,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_关于《苏州市“十五五”农业农村发展规划（征求意见稿）》公开征求意见的结果反馈",
+    "source_file": "sz_关于《苏州市“十五五”农业农村发展规划（征求意见稿）》公开征求意见的结果反馈.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 11.67,
+    "usage_tokens": 1459,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_关于《苏州市养殖水域滩涂规划（2020-2030年）2025年修编版（征求意见稿）》公开",
+    "source_file": "sz_关于《苏州市养殖水域滩涂规划（2020-2030年）2025年修编版（征求意见稿）》公开.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 14.51,
+    "usage_tokens": 1514,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_关于《苏州市宠物诊疗行业收费项目清单（征求意见稿）》公开征求意见的结果反馈",
+    "source_file": "sz_关于《苏州市宠物诊疗行业收费项目清单（征求意见稿）》公开征求意见的结果反馈.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 21.26,
+    "usage_tokens": 1931,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_关于公开征求《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用",
+    "source_file": "sz_关于公开征求《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 80.79,
+    "usage_tokens": 5700,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_关于征求《苏州市农业农村局关于修改部分规范性文件的决定（征求意见稿）》意见的公告",
+    "source_file": "sz_关于征求《苏州市农业农村局关于修改部分规范性文件的决定（征求意见稿）》意见的公告.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 164.8,
+    "usage_tokens": 11523,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏州市农业农村局关于修改部分规范性文件的决定（征求意见稿）",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "江苏省行政规范性文件管理规定",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "根据《江苏省行政规范性文件管理规定》《苏州市行政规范性文件制定和监督管理规定》等有关规定，市农业农村局决定对部分行政规范性文件相关内容予以修改",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市农业农村局关于修改部分规范性文件的决定（征求意见稿）",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏州市行政规范性文件制定和监督管理规定",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "根据《江苏省行政规范性文件管理规定》《苏州市行政规范性文件制定和监督管理规定》等有关规定，市农业农村局决定对部分行政规范性文件相关内容予以修改",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_关于征求《苏州市宠物诊疗行业收费项目清单（征求意见稿）》意见的公告",
+    "source_file": "sz_关于征求《苏州市宠物诊疗行业收费项目清单（征求意见稿）》意见的公告.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 9.02,
+    "usage_tokens": 1300,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_江苏省2027年普通高校招生考试报名办法公布",
+    "source_file": "sz_江苏省2027年普通高校招生考试报名办法公布.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 136.43,
+    "usage_tokens": 14824,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏价费函〔2010〕56号",
+        "object_type": "Policy",
+        "confidence": 0.8,
+        "evidence": "考生报名时须支付报名考试费，收费标准按《省物价局 省财政厅关于高等学校招生报名考试收费标准的函》（苏价费函〔2010〕56号）和……执行。报名费为20元/人，考试费为26元/门。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏发改收费函〔2019〕414号",
+        "object_type": "Policy",
+        "confidence": 0.8,
+        "evidence": "收费标准按《省物价局 省财政厅关于高等学校招生报名考试收费标准的函》（苏价费函〔2010〕56号）和《省发展改革委省财政厅关于明确普通高考和高中学业水平考试收费标准的复函》（苏发改收费函〔2019〕414号）执行。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏教财〔2000〕23号、苏价费〔2000〕97号",
+        "object_type": "Policy",
+        "confidence": 0.8,
+        "evidence": "体育类、艺术类专业省统考的报名考试费按原省教育委员会、省物价局《关于调整我省高等学校等招生考试收费标准的通知》（苏教财〔2000〕23号、苏价费〔2000〕97号）执行。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "教学厅〔2005〕13号",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "各市、县（市、区）教育行政部门、招生考试机构和报名点应按照《教育部办公厅 公安部办公厅关于做好普通高校招生全国统一考试考生报名资格审查工作的通知》（教学厅〔2005〕13号）和……精神，加强对考生的户籍、学籍、报名材料的审核工作。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏教考函〔2020〕16号",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "应按照《教育部办公厅 公安部办公厅关于做好普通高校招生全国统一考试考生报名资格审查工作的通知》（教学厅〔2005〕13号）和《省教育厅关于进一步加强普通高考各类考生资格审核工作的通知》（苏教考函〔2020〕16号）精神，加强对考生的户籍、学籍、报名材料的审核工作。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国家教育考试违规处理办法",
+        "object_type": "Policy",
+        "confidence": 0.5,
+        "evidence": "如发现考生有弄虚作假、不符合报名条件等情况，将取消考生报名资格，并根据《国家教育考试违规处理办法》等有关规定严肃处理。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏教考函〔2024〕26号",
+        "object_type": "Policy",
+        "confidence": 0.75,
+        "evidence": "体育类专业省统考的考试科目、形式等按《省教育厅关于印发〈江苏省普通高校招生体育类专业省统考考试方案（修订）〉的通知》（苏教考函〔2024〕26号）执行",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏教考命〔2023〕1号",
+        "object_type": "Policy",
+        "confidence": 0.75,
+        "evidence": "艺术类专业省统考的考试科目、形式等按《省教育考试院关于印发江苏省普通高等学校艺术类专业省统考考试说明（试行）的通知》（苏教考命〔2023〕1号）、……执行",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏教考命〔2025〕3号",
+        "object_type": "Policy",
+        "confidence": 0.75,
+        "evidence": "……《省教育考试院关于调整普通高校招生书法类专业省统考有关考试内容的通知》（苏教考命〔2025〕3号）……执行",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏教考命〔2026〕1号",
+        "object_type": "Policy",
+        "confidence": 0.75,
+        "evidence": "……《省教育考试院关于调整普通高校招生美术与设计类专业省统考有关科目考试形式和内容的通知》（苏教考命〔2026〕1号）执行",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏教考招〔2023〕1号",
+        "object_type": "Policy",
+        "confidence": 0.75,
+        "evidence": "涵盖专业范围按《关于公布2024年江苏省普通高校招生艺术类专业省统考涵盖专业范围的通知》（苏教考招〔2023〕1号）执行。",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "江苏省2027年普通高校招生考试报名办法",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "教学〔2021〕2号",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "录取工作按《教育部 国家体育总局关于进一步完善和规范高校高水平运动队考试招生工作的指导意见》（教学〔2021〕2号）有关规定执行。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_苏州市2026年家电以旧换新、数码和智能产品购新补贴活动品类再次升级",
+    "source_file": "sz_苏州市2026年家电以旧换新、数码和智能产品购新补贴活动品类再次升级.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 11.9,
+    "usage_tokens": 1307,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_苏州市推动大规模设备更新和消费品以旧换新实施方案专题-2024年专题",
+    "source_file": "sz_苏州市推动大规模设备更新和消费品以旧换新实施方案专题-2024年专题.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 280.07,
+    "usage_tokens": 23123,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "POL-SZ-2026-001",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-SZ-2026-001#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "关于开展苏州市2026年老旧营运货车报废更新补贴首轮摇号工作的公告2026-09-22……关于开展2026年第二批次苏州市老旧营运货车报废更新资格预约登记",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-002",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-SZ-2026-002#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "苏州市正式推出2026年汽车购新补贴政策2026-03-23……苏州新一轮汽车购新补贴开启2026-09-19",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-004",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-SZ-2026-004#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.8,
+        "evidence": "苏州市2026年家电以旧换新、数码和智能产品购新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-004",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-SZ-2026-004#S2",
+        "object_type": "Subsidy",
+        "confidence": 0.8,
+        "evidence": "一图读懂数码焕新享政府补贴 苏州市2026年家电以旧换新、数码和智能产品购新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-005",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-SZ-2026-005#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.8,
+        "evidence": "一图读懂：2026年苏州市汽车以旧换新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-JS-2025-001",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-JS-2025-001#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.65,
+        "evidence": "关于开展江苏省2025年汽车报废更新限额管理第二轮资格申领工作的通告2025-12-15",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-TC-2026-001",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-TC-2026-001#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "太仓金秋购房“嘉年华”开场 “卖旧买新”单套最高补贴50万元09-192026",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-XC-2026-001",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "POL-XC-2026-001#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.5,
+        "evidence": "2026相城新一轮家电家具促消费活动开始申领",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-001",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "POL-SZ-2024-001",
+        "object_type": "Policy",
+        "confidence": 0.45,
+        "evidence": "苏州市推动大规模设备更新和消费品以旧换新实施方案……苏州市2026年老旧营运货车报废更新补贴首轮摇号",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-005",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "POL-SZ-2024-001",
+        "object_type": "Policy",
+        "confidence": 0.45,
+        "evidence": "苏州市推动大规模设备更新和消费品以旧换新实施方案……2026年苏州市汽车以旧换新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-004",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "POL-SZ-2024-001",
+        "object_type": "Policy",
+        "confidence": 0.45,
+        "evidence": "苏州市推动大规模设备更新和消费品以旧换新实施方案……苏州市2026年家电以旧换新、数码和智能产品购新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-002",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "POL-SZ-2024-001",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "苏州市推动大规模设备更新和消费品以旧换新实施方案……苏州市正式推出2026年汽车购新补贴政策",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-TC-2026-001",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "POL-SZ-2026-003",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "“家在苏州·2026金秋购房季”正式启幕……太仓金秋购房“嘉年华”开场",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-XC-2026-001",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "POL-SZ-2024-001",
+        "object_type": "Policy",
+        "confidence": 0.35,
+        "evidence": "2026相城新一轮家电家具促消费活动开始申领……消费品以旧换新实施方案",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-001#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320500",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "苏州市2026年老旧营运货车报废更新补贴首轮摇号",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-001#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-QUAL-TRUCK-001",
+        "object_type": "Condition",
+        "confidence": 0.4,
+        "evidence": "苏州市2026年老旧营运货车报废更新补贴",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-002#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320500",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "苏州市正式推出2026年汽车购新补贴政策",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-004#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320500",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "苏州市2026年家电以旧换新、数码和智能产品购新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-004#S2",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320500",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "苏州市2026年家电以旧换新、数码和智能产品购新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-SZ-2026-005#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320500",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "2026年苏州市汽车以旧换新补贴活动",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-JS-2025-001#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320000",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "江苏省2025年汽车报废更新限额管理第二轮资格申领",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-XC-2026-001#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320507",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "2026相城新一轮家电家具促消费活动开始申领",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "POL-TC-2026-001#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "COND-REGION-320585",
+        "object_type": "Condition",
+        "confidence": 0.7,
+        "evidence": "太仓金秋购房“嘉年华”开场",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》征求意见的",
+    "source_file": "sz_苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》征求意见的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 49.26,
+    "usage_tokens": 4299,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "中华人民共和国生态环境法典",
+        "object_type": "Policy",
+        "confidence": 0.5,
+        "evidence": "根据国家及省、市有关地方性法规规章对照《中华人民共和国生态环境法典》清理工作的要求，我局对《苏州市餐饮业环境污染防治管理办法》进行清理，形成《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏州市餐饮业环境污染防治管理办法",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "我局对《苏州市餐饮业环境污染防治管理办法》进行清理，形成《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_重大决策预公开／政策文件意见征集_-_苏州市人民政府",
+    "source_file": "sz_重大决策预公开／政策文件意见征集_-_苏州市人民政府.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 142.84,
+    "usage_tokens": 11155,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.7,
+        "evidence": "关于公开征求《苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）》的公告",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）#S2",
+        "object_type": "Subsidy",
+        "confidence": 0.65,
+        "evidence": "《苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）》",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）#S1",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "企业类别：国四及以下非营运中、重型柴油货车持有单位/个人",
+        "object_type": "企业类别",
+        "confidence": 0.5,
+        "evidence": "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴",
+        "source_policy_id": ""
+      },
+      {
+        "subject_id": "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）#S2",
+        "subject_type": "Subsidy",
+        "relation": "适用于",
+        "object_id": "企业类别：行业=工业（国二非道路移动机械使用单位）",
+        "object_type": "企业类别",
+        "confidence": 0.55,
+        "evidence": "工业领域国二非道路移动机械淘汰更新补贴",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_2025年度专利密集型产品名单公布_苏州上榜224件_全省第一",
+    "source_file": "sz_2025年度专利密集型产品名单公布_苏州上榜224件_全省第一.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 86.27,
+    "usage_tokens": 6068,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "2025年度专利密集型产品名单（无文号）",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "2025年度专利密集型产品名单（无文号）#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.5,
+        "evidence": "近日，中国专利保护协会公布2025年度专利密集型产品名单。全省共908件产品进入名单，其中苏州市152家企业共计224件产品上榜，获评数量全省第一",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_53处老宅成功牵手“合伙人”_姑苏区持续推进古城保护更新",
+    "source_file": "sz_53处老宅成功牵手“合伙人”_姑苏区持续推进古城保护更新.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 20.51,
+    "usage_tokens": 2701,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_中到大雨、局部暴雨！台风“蔷琵”对苏州有明显风雨影响",
+    "source_file": "sz_中到大雨、局部暴雨！台风“蔷琵”对苏州有明显风雨影响.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 11.33,
+    "usage_tokens": 1714,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_中国厨师节“苏州开席”_非遗美食保护联合倡议发布",
+    "source_file": "sz_中国厨师节“苏州开席”_非遗美食保护联合倡议发布.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 15.46,
+    "usage_tokens": 1824,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_中国厨师节，即将在苏州启幕！",
+    "source_file": "sz_中国厨师节，即将在苏州启幕！.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 14.24,
+    "usage_tokens": 2143,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_促进集成电路产业高能级发展_苏州工业园区海关推出惠企措施3.0版",
+    "source_file": "sz_促进集成电路产业高能级发展_苏州工业园区海关推出惠企措施3.0版.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 893.35,
+    "usage_tokens": 21436,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏州工业园区海关惠企措施3.0版",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏州工业园区海关惠企措施3.0版#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.95,
+        "evidence": "此次推出的“惠企措施3.0版”，围绕优化海关信用培育机制、优化减免税便利审核及后续管理、深化进口危化品“白名单”制度、优化集成电路协同查检模式、拓展前置货站通关模式扩容升级、探索区外集成电路保税检测试点等十个方面，为园区集成电路产业量身定制了一系列发展支持举措",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_全市交通重点项目四季度攻坚调度会召开",
+    "source_file": "sz_全市交通重点项目四季度攻坚调度会召开.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 29.28,
+    "usage_tokens": 1631,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_关于开展2026年第二批次苏州市老旧营运货车报废更新资格预约登记的通告",
+    "source_file": "sz_关于开展2026年第二批次苏州市老旧营运货车报废更新资格预约登记的通告.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 230.4,
+    "usage_tokens": 18110,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "无文号-苏州2026货车报废更新预约第2批通告",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏交运〔2026〕14号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《关于印发2026年江苏省老旧营运货车报废更新补贴申领指南的通知》（苏交运〔2026〕14号）要求，我市2026年老旧营运货车报废更新补贴",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "sz_台风“蔷琵”最新动态，注意防范",
+    "source_file": "sz_台风“蔷琵”最新动态，注意防范.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 8.14,
+    "usage_tokens": 1248,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_吴中区4.83万亩水稻开镰_今年秋粮总产预计冲到2.86万吨",
+    "source_file": "sz_吴中区4.83万亩水稻开镰_今年秋粮总产预计冲到2.86万吨.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 14.87,
+    "usage_tokens": 1880,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_太仓中荷村入选全国示范性老年友好型社区",
+    "source_file": "sz_太仓中荷村入选全国示范性老年友好型社区.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 23.22,
+    "usage_tokens": 2024,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_局部暴雨、最大阵风8级！今天下午到后天“蔷琵”外围影响苏州",
+    "source_file": "sz_局部暴雨、最大阵风8级！今天下午到后天“蔷琵”外围影响苏州.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 11.76,
+    "usage_tokens": 1360,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_常熟2项工程获评国家优质工程奖",
+    "source_file": "sz_常熟2项工程获评国家优质工程奖.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 46.66,
+    "usage_tokens": 3584,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_张家港把《钱氏家训》融入思政课程",
+    "source_file": "sz_张家港把《钱氏家训》融入思政课程.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 15.08,
+    "usage_tokens": 1994,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_昆山市科技招商推介会举行_8个科招项目集中签约",
+    "source_file": "sz_昆山市科技招商推介会举行_8个科招项目集中签约.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 31.3,
+    "usage_tokens": 2666,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_最近鼻病毒检出较多？苏州疾控最新提醒",
+    "source_file": "sz_最近鼻病毒检出较多？苏州疾控最新提醒.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 12.98,
+    "usage_tokens": 1981,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_清陶动力固态动力电池项目投产仪式举行_总投资80亿元_范波出席",
+    "source_file": "sz_清陶动力固态动力电池项目投产仪式举行_总投资80亿元_范波出席.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 13.65,
+    "usage_tokens": 1644,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_苏州市2026年重阳节系列活动正式启动",
+    "source_file": "sz_苏州市2026年重阳节系列活动正式启动.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 24.22,
+    "usage_tokens": 2478,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_苏州市人民政府门户网站工作年度报表（2025年度）",
+    "source_file": "sz_苏州市人民政府门户网站工作年度报表（2025年度）.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 19.7,
+    "usage_tokens": 1849,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_苏州市医保局积极打造AI智能服务提升群众办事便利度",
+    "source_file": "sz_苏州市医保局积极打造AI智能服务提升群众办事便利度.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 20.81,
+    "usage_tokens": 2081,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_苏州市委常委会召开会议",
+    "source_file": "sz_苏州市委常委会召开会议.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 12.06,
+    "usage_tokens": 1882,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_苏州市开展再生资源回收行业安全生产专项整治",
+    "source_file": "sz_苏州市开展再生资源回收行业安全生产专项整治.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 65.21,
+    "usage_tokens": 4926,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "sz_部署防御台风“蔷琵”工作_紧盯秋台风与冷空气叠加风险",
+    "source_file": "sz_部署防御台风“蔷琵”工作_紧盯秋台风与冷空气叠加风险.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 10.7,
+    "usage_tokens": 1415,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_​江苏省2025年政府信息公开工作年度报告",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_​江苏省2025年政府信息公开工作年度报告.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 57.21,
+    "usage_tokens": 6044,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "江苏省2025年政府信息公开工作年度报告",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院令第711号",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "根据《中华人民共和国政府信息公开条例》（国务院令第711号，以下简称《条例》）规定，现发布《江苏省2025年政府信息公开工作年度报告》。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅2025年政府信息公开工作年度",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅2025年政府信息公开工作年度.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 69.23,
+    "usage_tokens": 6410,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "014000319/2026-00020",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院令第711号",
+        "object_type": "Policy",
+        "confidence": 0.75,
+        "evidence": "根据《中华人民共和国政府信息公开条例》（国务院令第711号）规定，现发布《江苏省人民政府办公厅2025年政府信息公开工作年度报告》",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅_中国气象局办公室关于印发江苏",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅_中国气象局办公室关于印发江苏.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 136.69,
+    "usage_tokens": 14573,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕37号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "全国气象发展“十五五”规划",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《全国气象发展“十五五”规划》《江苏省国民经济和社会发展第十五个五年规划纲要》，制定本规划。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于促进江苏省政府投资基金高质量发展的",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于促进江苏省政府投资基金高质量发展的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 160.18,
+    "usage_tokens": 13106,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕8号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国办发〔2025〕1号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "为深入贯彻落实《国务院办公厅关于促进政府投资基金高质量发展的指导意见》（国办发〔2025〕1号）和“1＋9”制度规定",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加强海外专利布局的实施意见",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加强海外专利布局的实施意见.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 170.32,
+    "usage_tokens": 15121,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕32号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕32号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "每年遴选10家左右外向型企业开展海外专利培育，对海外布局质量高、产业带动性好的，按规定给予资金支持。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加快发展赛事经济提振体育休闲消费的",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加快发展赛事经济提振体育休闲消费的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 282.6,
+    "usage_tokens": 24138,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2025〕40号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2025〕40号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "省财政综合运用财政奖补、贷款贴息等政策工具，重点支持体育特色品牌赛事、消费引领性强的重大赛事举办，以及职业体育俱乐部发展、体育制造业企业转型升级等。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”农业农村现代化",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”农业农村现代化.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 700.23,
+    "usage_tokens": 14128,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕39号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "乡村全面振兴规划（2024－2027年）",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《乡村全面振兴规划（2024－2027年）》《加快建设农业强国规划（2024－2035年）》《加快农业农村现代化“十五五”规划》《江苏省国民经济和社会发展第十五个五年规划纲要》，编制本规划。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”海洋经济发展规",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”海洋经济发展规.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 166.95,
+    "usage_tokens": 16153,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕41号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "江苏省国民经济和社会发展第十五个五年规划纲要",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据国家相关规划和《江苏省国民经济和社会发展第十五个五年规划纲要》，制定本规划。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省人民政府2026年度重大",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省人民政府2026年度重大.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 93.13,
+    "usage_tokens": 6969,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕21号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "江苏省人民政府重大行政决策事项目录管理办法",
+        "object_type": "Policy",
+        "confidence": 0.55,
+        "evidence": "请按照《重大行政决策程序暂行条例》《江苏省重大行政决策程序实施办法》《江苏省人民政府重大行政决策事项目录管理办法》等规定，认真组织实施。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省优化营商环境行动方案（2",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省优化营商环境行动方案（2.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 297.75,
+    "usage_tokens": 27332,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕24号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国家新版市场准入负面清单",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "贯彻实施国家新版市场准入负面清单，聚焦行业壁垒造成准入规则不平等、新业态新领域准入不作为等方面问题",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省低温雨雪冰冻灾害应急预案",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省低温雨雪冰冻灾害应急预案.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 68.81,
+    "usage_tokens": 11957,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办函〔2026〕39号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国家低温雨雪冰冻灾害应急预案",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "依据《中华人民共和国突发事件应对法》《中华人民共和国气象法》《国家气象灾害应急预案》《国家低温雨雪冰冻灾害应急预案》《气象灾害防御条例》《江苏省气象灾害防御条例》《江苏省突发事件总体应急预案》等法律法规和有关规定制定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省促进残疾人就业若干措施的",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省促进残疾人就业若干措施的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 245.68,
+    "usage_tokens": 21646,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕25号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "江苏省政府购买就业公共服务实施办法",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "依据《江苏省政府购买就业公共服务实施办法》，规范引入人力资源服务机构、社会组织等专业力量参与服务供给",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省农村寄递物流体系优化提升",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省农村寄递物流体系优化提升.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 261.02,
+    "usage_tokens": 21514,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕30号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕30号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.75,
+        "evidence": "有条件的市县可对代送邮件快件进村的邮政、快递、交通运输企业给予奖补",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省化工产业结构调整限制和淘",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省化工产业结构调整限制和淘.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 34.87,
+    "usage_tokens": 6320,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2025〕7号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏政办发〔2020〕32号",
+        "object_type": "Policy",
+        "confidence": 0.98,
+        "evidence": "《省政府办公厅关于印发江苏省化工产业结构调整限制、淘汰和禁止目录（2020年本）的通知》（苏政办发〔2020〕32号）同时废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省城市基础设施生命线安全工",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省城市基础设施生命线安全工.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 98.15,
+    "usage_tokens": 8931,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2026〕5号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国家有关法律、法规（泛指，未指明具体文件）",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "为规范和加强城市基础设施生命线安全工程建设运行管理工作，提升城市安全风险防范能力，保障城市运行安全，根据国家有关法律、法规，结合本省实际，制定本办法。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水上交通安全监管和救助系",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水上交通安全监管和救助系.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 55.12,
+    "usage_tokens": 7952,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕44号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "交通强国建设纲要",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "依据《交通强国建设纲要》《国家水上交通安全监管和救助系统布局规划（2025－2035年）》《江苏省国民经济和社会发展第十五个五年规划纲要》等文件要求，制定本规划。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水运口岸码头泊位开放管理",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水运口岸码头泊位开放管理.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 406.3,
+    "usage_tokens": 32367,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2025〕9号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏政办规〔2024〕1号",
+        "object_type": "Policy",
+        "confidence": 0.97,
+        "evidence": "本办法自2026年2月5日起施行，有效期至2031年2月4日。《省政府办公厅关于印发江苏省水运口岸码头泊位开放管理服务办法（试行）的通知》（苏政办规〔2024〕1号）同时废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省治理交通拥堵专项行动方案",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省治理交通拥堵专项行动方案.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 60.67,
+    "usage_tokens": 6832,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省深入推进城市体检工作方案",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省深入推进城市体检工作方案.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 162.27,
+    "usage_tokens": 9542,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省生态空间管控区域管理办法",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省生态空间管控区域管理办法.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 59.77,
+    "usage_tokens": 7139,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2026〕1号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏政办发〔2021〕3号",
+        "object_type": "Policy",
+        "confidence": 0.98,
+        "evidence": "《省政府办公厅关于印发江苏省生态空间管控区域调整管理办法的通知》（苏政办发〔2021〕3号）、《省政府办公厅关于印发江苏省生态空间管控区域监督管理办法的通知》（苏政办发〔2021〕20号）同时废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省省属企业违规经营投资责任",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省省属企业违规经营投资责任.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 97.59,
+    "usage_tokens": 14387,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2026〕4号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院办公厅关于建立国有企业违规经营投资责任追究制度的意见",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "根据……《国务院办公厅关于建立国有企业违规经营投资责任追究制度的意见》《中央企业违规经营投资责任追究实施办法》等法律法规规章和文件，结合省属企业实际，制定本办法。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省落实水资源刚性约束制度考",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省落实水资源刚性约束制度考.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 45.33,
+    "usage_tokens": 4975,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕23号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏政办发〔2013〕161号",
+        "object_type": "Policy",
+        "confidence": 0.98,
+        "evidence": "本方案自印发之日起施行，2013年8月27日印发的《省政府办公厅关于实行最严格水资源管理制度考核事项的通知》（苏政办发〔2013〕161号）同时废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省道路交通安全宣传教育提质",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省道路交通安全宣传教育提质.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 46.61,
+    "usage_tokens": 5154,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕31号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "道路交通安全宣传教育三年提升行动计划",
+        "object_type": "Policy",
+        "confidence": 0.55,
+        "evidence": "省政府决定在全省开展道路交通安全宣传教育三年提升行动计划基础上，再开展为期三年的提质增效行动计划（2026－2028年）",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省里下河地区滞涝圩管理办法",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省里下河地区滞涝圩管理办法.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 130.06,
+    "usage_tokens": 11110,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2025〕8号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《中华人民共和国水法》",
+        "object_type": "Policy",
+        "confidence": 0.55,
+        "evidence": "根据《中华人民共和国水法》《中华人民共和国防洪法》《江苏省防洪条例》等有关法律、法规，结合本省实际，制定本办法。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发省政府2026年立法工作计划的",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发省政府2026年立法工作计划的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 68.55,
+    "usage_tokens": 8749,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕1号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "江苏省规章立法后评估办法",
+        "object_type": "Policy",
+        "confidence": 0.55,
+        "evidence": "按照《江苏省规章立法后评估办法》相关规定，经研究，将12件省政府规章立法后评估项目列入年度立法工作计划",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于支持优质企业增资扩产提质增效的实施",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于支持优质企业增资扩产提质增效的实施.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 288.01,
+    "usage_tokens": 26608,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2025〕46号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2025〕46号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.8,
+        "evidence": "摸排建立增资扩产重点项目库，将符合条件的项目纳入省重大项目清单单列管理，推进项目尽早开工、加快建设，尽快达产达效",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于突出市场导向建设科技成果转化高地的",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于突出市场导向建设科技成果转化高地的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 348.23,
+    "usage_tokens": 34242,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2026〕3号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办规〔2026〕3号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "支持企业牵头组织产学研联合研发，对实际到账300万元以上的单个项目，按程序纳入省科技计划项目。（省科技厅）",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步加强县域特色优势产业发展的实",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步加强县域特色优势产业发展的实.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 175.32,
+    "usage_tokens": 11060,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2025〕45号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2025〕45号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "省级相关财政专项资金聚焦支持特色优势产业强链延链补链、绿色制造、智能制造等领域，加大扶持力度",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步完善设区市与市辖区财政体制的",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步完善设区市与市辖区财政体制的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 157.0,
+    "usage_tokens": 14177,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕13号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕13号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.5,
+        "evidence": "各市应统筹上级下达的转移支付资金和本级财力，对财政收入增长快、财力贡献规模大的区，可按照一般公共预算收入增量的一定比例予以激励",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步推进城市公共交通高质量发展的",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步推进城市公共交通高质量发展的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 216.35,
+    "usage_tokens": 19929,
+    "invalid_items": 1,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于优化金融生态环境促进金融业高质",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于优化金融生态环境促进金融业高质.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 284.48,
+    "usage_tokens": 22923,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕2号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕2号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.5,
+        "evidence": "支持金融企业通过省公共数据授权运营机制合规开发利用",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加力支持工业企业技术改造若干措",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加力支持工业企业技术改造若干措.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 367.95,
+    "usage_tokens": 29191,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕42号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕42号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "省级专项安排资金对符合产业发展方向、技术含量高、示范效应强的重大技术改造项目……按规定给予每个实施主体最高1500万元支持",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加快全省建筑业转型升级若干措施",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加快全省建筑业转型升级若干措施.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 221.35,
+    "usage_tokens": 18783,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕16号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕16号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.75,
+        "evidence": "建立对符合条件的建筑业企业跨专业申请资质绿色通道，优化人员、业绩等资格认定条件和方式",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于强化稳岗扩容提质促进高质量充分",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于强化稳岗扩容提质促进高质量充分.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 277.14,
+    "usage_tokens": 24755,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕48号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国就劳发〔2026〕2号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "落实《国务院就业促进和劳动保护工作领导小组关于印发〈稳岗扩容提质行动方案〉的通知》（国就劳发〔2026〕2号）要求",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推动游艇业发展若干措施的通知",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推动游艇业发展若干措施的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 182.94,
+    "usage_tokens": 17109,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2025〕6号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办规〔2025〕6号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.7,
+        "evidence": "（一）优化游艇检验服务。全面提升游艇检验便利化水平……持有CE和ABYC认证证书的进口游艇，检验时可不要求其提供图纸资料……国内取得型式检验证书的新建批量游艇，可直接换发游艇适航证书",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推行专项信用报告替代有无违法违",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推行专项信用报告替代有无违法违.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 259.36,
+    "usage_tokens": 14357,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2025〕5号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "发改财金〔2025〕565号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "落实《国家发展改革委、公安部、国家数据局关于全面推行以专项信用报告替代有无违法违规记录证明的通知》（发改财金〔2025〕565号）……现就全省推行以专项公共信用信息报告替代有无违法违规记录证明（以下简称“信用代证”），制定本实施方案。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于支持青年社区建设若干措施的通知",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于支持青年社区建设若干措施的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 231.76,
+    "usage_tokens": 22456,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕46号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕46号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "鼓励各地提供覆盖OPC全生命周期需求的创业孵化服务，创新Token（词元）券、算力贷等产品。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于紧抓当前提质增效推动经济持续向",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于紧抓当前提质增效推动经济持续向.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 289.38,
+    "usage_tokens": 29539,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕38号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕38号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.8,
+        "evidence": "聚焦先进制造业、现代服务业、城市更新、现代农业等领域，加大贴息投入，优化贴息产品",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步优化民营经济金融服务若干",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步优化民营经济金融服务若干.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 246.22,
+    "usage_tokens": 21046,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕3号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "中华人民共和国民营经济促进法",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "为贯彻落实党中央、国务院关于促进民营经济发展壮大的部署要求，认真实施《中华人民共和国民营经济促进法》，……制定如下措施",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步强化食品安全全链条监管若",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步强化食品安全全链条监管若.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 132.97,
+    "usage_tokens": 11290,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2025〕47号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2025〕47号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.3,
+        "evidence": "加强传统特色食品加工制作工艺保护，推动传统特色食品产业向标准化、清洁化、智能化转型。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步提升养老服务保障水平若干",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步提升养老服务保障水平若干.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 150.76,
+    "usage_tokens": 15492,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2026〕6号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "党中央、国务院关于深化养老服务改革发展的决策部署",
+        "object_type": "Policy",
+        "confidence": 0.4,
+        "evidence": "全面落实党中央、国务院关于深化养老服务改革发展的决策部署，有效应对人口老龄化和少子化程度加深趋势",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步支持城市更新行动若干政策",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步支持城市更新行动若干政策.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 333.09,
+    "usage_tokens": 28785,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办规〔2026〕2号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办规〔2026〕2号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "积极争取中央财政资金。统筹省级城建领域相关专项资金支持城市更新。创新财政资金支持方式，运用\"拨改投\"，放大乘数效应。发挥地方政府专项债券\"自审自发\"试点省份优势，支持符合条件的城市更新项目建设。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省商务厅等部门关于江苏省跨境电商提",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省商务厅等部门关于江苏省跨境电商提.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 183.32,
+    "usage_tokens": 16491,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2026〕26号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政办发〔2026〕26号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.6,
+        "evidence": "将境内外重点跨境电商展会纳入省市贸易促进计划，对参展企业给予支持",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省财政厅关于规范政府和社会资本合作",
+    "source_file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省财政厅关于规范政府和社会资本合作.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 128.08,
+    "usage_tokens": 12720,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政办发〔2025〕44号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国办函〔2025〕84号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《国务院办公厅转发财政部〈关于规范政府和社会资本合作存量项目建设和运营的指导意见〉的通知》（国办函〔2025〕84号），结合我省实际，现提出如下实施意见",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_​省政府关于2024年度江苏省科学技术奖励的决定",
+    "source_file": "js_江苏省人民政府_政府文件_​省政府关于2024年度江苏省科学技术奖励的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 96.55,
+    "usage_tokens": 7579,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕2号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《江苏省科学技术奖励办法》",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "根据《江苏省科学技术奖励办法》规定，经省科学技术奖励评审委员会评审、省科学技术奖励委员会审定，省政府批准",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_​省政府关于表扬第八届江苏技能状元大赛表现突出选手的通报",
+    "source_file": "js_江苏省人民政府_政府文件_​省政府关于表扬第八届江苏技能状元大赛表现突出选手的通报.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 80.9,
+    "usage_tokens": 6224,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕82号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕82号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.55,
+        "evidence": "省人民政府决定对于典等21人予以通报表扬",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_《江苏省人民政府关于废止和修改部分省政府规章的决定》（省政府令",
+    "source_file": "js_江苏省人民政府_政府文件_《江苏省人民政府关于废止和修改部分省政府规章的决定》（省政府令.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 68.56,
+    "usage_tokens": 6223,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "江苏省人民政府令第192号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "江苏省人民政府令第105号",
+        "object_type": "Policy",
+        "confidence": 0.98,
+        "evidence": "附件1 江苏省人民政府决定废止的省政府规章 《江苏省土地利用总体规划管理办法》（2015年6月23日江苏省人民政府令第105号发布 自2015年8月1日起施行）",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_《江苏省农业机械推广办法》（省政府令第193号）",
+    "source_file": "js_江苏省人民政府_政府文件_《江苏省农业机械推广办法》（省政府令第193号）.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 211.04,
+    "usage_tokens": 17265,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "江苏省人民政府令第193号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "江苏省人民政府令第200号（2002年版《江苏省农业机械推广办法》）",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "本办法自2026年11月1日起施行。2002年12月4日江苏省人民政府发布的《江苏省农业机械推广办法》（江苏省人民政府令第200号）同时废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_《江苏省实验动物管理办法》（省政府令第191号）",
+    "source_file": "js_江苏省人民政府_政府文件_《江苏省实验动物管理办法》（省政府令第191号）.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 85.56,
+    "usage_tokens": 7272,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "江苏省人民政府令第191号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "江苏省人民政府令第45号",
+        "object_type": "Policy",
+        "confidence": 0.99,
+        "evidence": "本办法自2026年1月1日起施行。2008年9月2日江苏省人民政府发布的《江苏省实验动物管理办法》（江苏省人民政府令第45号）同时废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_《江苏省物资储备管理办法》（省政府令第190号）",
+    "source_file": "js_江苏省人民政府_政府文件_《江苏省物资储备管理办法》（省政府令第190号）.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 174.77,
+    "usage_tokens": 13426,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "江苏省人民政府令第190号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《中华人民共和国突发事件应对法》",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《中华人民共和国突发事件应对法》等法律、法规，结合本省实际，制定本办法。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_江苏省人民政府关于公布第二批江苏省历史文化街区的通知",
+    "source_file": "js_江苏省人民政府_政府文件_江苏省人民政府关于公布第二批江苏省历史文化街区的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 76.33,
+    "usage_tokens": 6076,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕33号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "中华人民共和国文物保护法",
+        "object_type": "Policy",
+        "confidence": 0.5,
+        "evidence": "为进一步加强城乡历史文化保护传承，根据《中华人民共和国文物保护法》《历史文化名城名镇名村保护条例》等相关规定",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_江苏省人民政府关于废止和修改部分行政规范性文件的决定",
+    "source_file": "js_江苏省人民政府_政府文件_江苏省人民政府关于废止和修改部分行政规范性文件的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 109.1,
+    "usage_tokens": 11375,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政规〔2026〕2号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏政发〔2003〕9号",
+        "object_type": "Policy",
+        "confidence": 0.99,
+        "evidence": "一、对《省政府关于进一步推进全省城市市政公用事业改革的意见》（苏政发〔2003〕9号）等13件行政规范性文件予以废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_江苏省人民政府关于省政府有关领导同志工作分工的通知",
+    "source_file": "js_江苏省人民政府_政府文件_江苏省人民政府关于省政府有关领导同志工作分工的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 16.98,
+    "usage_tokens": 1931,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在南四湖、韩庄运河中运河提标工程建设范围",
+    "source_file": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在南四湖、韩庄运河中运河提标工程建设范围.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 56.38,
+    "usage_tokens": 5068,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政规〔2025〕2号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院令第679号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《大中型水利水电工程建设征地补偿和移民安置条例》（国务院令第679号）和水利部《大中型水利水电工程移民安置前期工作管理暂行办法》（水规计〔2010〕33号）有关规定，特通告如下",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在江苏省太湖流域太湖东片排涝工程建设范围",
+    "source_file": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在江苏省太湖流域太湖东片排涝工程建设范围.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 57.08,
+    "usage_tokens": 4962,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政规〔2026〕1号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院令第679号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《大中型水利水电工程建设征地补偿和移民安置条例》（国务院令第679号）和水利部《大中型水利水电工程移民安置前期工作管理暂行办法》（水规计〔2010〕33号）有关规定，特通告如下",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在龙沟河闸、北六塘河闸拆建工程建设范围内",
+    "source_file": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在龙沟河闸、北六塘河闸拆建工程建设范围内.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 49.66,
+    "usage_tokens": 4323,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政规〔2025〕3号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院令第679号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《大中型水利水电工程建设征地补偿和移民安置条例》（国务院令第679号）和水利部《大中型水利水电工程移民安置前期工作管理暂行办法》（水规计〔2010〕33号）有关规定，特通告如下",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于俞金红等职务任免的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于俞金红等职务任免的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 16.67,
+    "usage_tokens": 1803,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于全省“十五五”期间年森林采伐限额的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于全省“十五五”期间年森林采伐限额的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 44.3,
+    "usage_tokens": 3908,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕4号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏林资〔2026〕5号",
+        "object_type": "Policy",
+        "confidence": 0.5,
+        "evidence": "你局关于全省“十五五”期间年森林采伐限额的请示（苏林资〔2026〕5号）收悉。现批复如下",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于公布江苏省征地区片综合地价最低标准的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于公布江苏省征地区片综合地价最低标准的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 235.42,
+    "usage_tokens": 17781,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政规〔2025〕5号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政规〔2025〕5号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.95,
+        "evidence": "全省征收农民集体所有农用地区片综合地价最低标准，一、二、三、四类地区分别为每亩70000元、61000元、52000元、45000元。（即7/6.1/5.2/4.5万元每亩）",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于公布江苏省第十八届哲学社会科学优秀成果奖的决定",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于公布江苏省第十八届哲学社会科学优秀成果奖的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 181.16,
+    "usage_tokens": 9720,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2025〕106号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《江苏省哲学社会科学优秀成果奖励办法》",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "根据《江苏省哲学社会科学优秀成果奖励办法》，省人民政府决定，授予738个项目江苏省第十八届哲学社会科学优秀成果奖",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于公布第二届江苏专利奖的决定",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于公布第二届江苏专利奖的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 192.39,
+    "usage_tokens": 13675,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕84号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕84号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "省人民政府决定授予“柔性直流海缆”等10个项目第二届江苏专利金奖",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于划定南京市雨花台烈士陵园烈士纪念设施保护范围的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于划定南京市雨花台烈士陵园烈士纪念设施保护范围的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 131.13,
+    "usage_tokens": 9074,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2025〕53号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《烈士褒扬条例》",
+        "object_type": "Policy",
+        "confidence": 0.6,
+        "evidence": "三、你市要严格落实《烈士褒扬条例》等有关法规要求，切实加强对烈士纪念设施的保护管理",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于划定淮海战役烈士纪念塔烈士纪念设施保护范围的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于划定淮海战役烈士纪念塔烈士纪念设施保护范围的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 37.4,
+    "usage_tokens": 3182,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2025〕44号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "烈士褒扬条例",
+        "object_type": "Policy",
+        "confidence": 0.45,
+        "evidence": "你市要严格落实《烈士褒扬条例》等有关法规要求，切实加强对烈士纪念设施的保护管理",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于南京市所辖各区征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于南京市所辖各区征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 243.32,
+    "usage_tokens": 18557,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕12号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于南通市所辖各县（市、区）征地区片综合地价执行标准的批",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于南通市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 135.64,
+    "usage_tokens": 9320,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕14号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.8,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发中国（江苏）自由贸易试验区生物医药全产业链开放创",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发中国（江苏）自由贸易试验区生物医药全产业链开放创.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 137.05,
+    "usage_tokens": 12415,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2025〕71号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国函〔2025〕80号",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《国务院关于〈中国（江苏）自由贸易试验区生物医药全产业链开放创新发展方案〉的批复》（国函〔2025〕80号）精神，制定本专项实施方案。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发江苏省“人工智能＋”行动方案的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省“人工智能＋”行动方案的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 193.81,
+    "usage_tokens": 16876,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2025〕108号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院关于深入实施“人工智能＋”行动的部署文件（原文未具名文号）",
+        "object_type": "Policy",
+        "confidence": 0.5,
+        "evidence": "为贯彻落实党中央、国务院关于深入实施“人工智能＋”行动部署要求，抢占人工智能产业应用制高点，制定本行动方案。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发江苏省公共信用信息管理办法的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省公共信用信息管理办法的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 89.92,
+    "usage_tokens": 9183,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政规〔2025〕4号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "中共中央办公厅、国务院办公厅关于健全社会信用体系的意见",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《中共中央办公厅、国务院办公厅关于健全社会信用体系的意见》《政务数据共享条例》《江苏省社会信用条例》《江苏省数据条例》等有关规定和要求，制定本办法。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发江苏省国民经济和社会发展第十五个五年规划纲要的通",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省国民经济和社会发展第十五个五年规划纲要的通.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 65.88,
+    "usage_tokens": 4908,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发江苏省服务业扩能提质行动方案（2026－2030",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省服务业扩能提质行动方案（2026－2030.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 314.02,
+    "usage_tokens": 22499,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕58号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕58号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.85,
+        "evidence": "充分发挥财政专项资金作用，采取免申即享、贷款贴息、风险补偿、项目补助等方式支持服务业扩能提质",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发江苏省防范和处置非法集资工作实施细则的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省防范和处置非法集资工作实施细则的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 180.33,
+    "usage_tokens": 10914,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政规〔2026〕3号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "防范和处置非法集资条例",
+        "object_type": "Policy",
+        "confidence": 0.95,
+        "evidence": "根据《防范和处置非法集资条例》（以下简称《条例》）、《江苏省地方金融条例》等有关法律、法规和国家规定，结合本省实际，制定本细则。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发江苏高水平大学建设方案（2026－2030年）的",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发江苏高水平大学建设方案（2026－2030年）的.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 187.63,
+    "usage_tokens": 16817,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕75号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕75号#S1（“双一流”建设支持计划）",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "在建设周期内，省财政为“双一流”建设支持计划、高水平大学建设高峰计划、拔尖特色学科建设计划、江苏特聘教授计划安排稳定支持经费。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于印发苏州市激发产业创新活力专项行动方案的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于印发苏州市激发产业创新活力专项行动方案的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 158.61,
+    "usage_tokens": 14773,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕55号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "民营经济促进法",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "贯彻落实民营经济促进法，服务构建全国统一大市场，推动惠企政策加快落地",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意仪征港务公用码头1＃、2＃泊位等对外开放的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意仪征港务公用码头1＃、2＃泊位等对外开放的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 16.86,
+    "usage_tokens": 1932,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意将宿迁市列为江苏省历史文化名城的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意将宿迁市列为江苏省历史文化名城的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 57.91,
+    "usage_tokens": 4661,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕2号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "中华人民共和国文物保护法",
+        "object_type": "Policy",
+        "confidence": 0.55,
+        "evidence": "认真落实《中华人民共和国文物保护法》《历史文化名城名镇名村保护条例》《江苏省历史文化名城名镇保护条例》《江苏省文物保护条例》等要求",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意张家港永嘉集装箱码头有限公司18＃泊位等对外开放",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意张家港永嘉集装箱码头有限公司18＃泊位等对外开放.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 76.15,
+    "usage_tokens": 5151,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意扬州港扬州港区3号泊位对外开放的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意扬州港扬州港区3号泊位对外开放的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 42.99,
+    "usage_tokens": 3367,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意招商局重工（江苏）有限公司1#、2#船坞及3#、",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意招商局重工（江苏）有限公司1#、2#船坞及3#、.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 123.73,
+    "usage_tokens": 8142,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意江苏洋口港港务有限公司液体化工码头G2、G3泊位",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意江苏洋口港港务有限公司液体化工码头G2、G3泊位.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 52.05,
+    "usage_tokens": 4035,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意灌云县临港产业区化工产业园开展扩区筹备工作的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意灌云县临港产业区化工产业园开展扩区筹备工作的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 115.34,
+    "usage_tokens": 8555,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕23号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "工信部联原〔2021〕220号",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "四、你市要严格按照工业和信息化部等六部委关于印发《化工园区建设标准和认定管理办法（试行）》的通知（工信部联原〔2021〕220号）……等要求",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意设立张家港技师学院的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意设立张家港技师学院的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 54.02,
+    "usage_tokens": 4071,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于同意连云港石化产业基地开展扩区筹备工作的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于同意连云港石化产业基地开展扩区筹备工作的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 77.98,
+    "usage_tokens": 6258,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2025〕40号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "工信部联原〔2021〕220号",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "你市要严格落实工业和信息化部等六部委关于印发《化工园区建设标准和认定管理办法（试行）》的通知（工信部联原〔2021〕220号）……等要求",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于宿迁市所辖各县（区）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于宿迁市所辖各县（区）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 159.32,
+    "usage_tokens": 12237,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕15号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于常州市所辖各区（市）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于常州市所辖各区（市）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 194.57,
+    "usage_tokens": 14018,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕11号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.65,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于开展苏南重点城市要素市场化配置综合改革试点的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于开展苏南重点城市要素市场化配置综合改革试点的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 472.72,
+    "usage_tokens": 39983,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕23号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "国务院批复《全国部分地区要素市场化配置综合改革试点实施方案》",
+        "object_type": "Policy",
+        "confidence": 0.7,
+        "evidence": "为深入贯彻落实国务院关于全国部分地区要素市场化配置综合改革试点实施方案的批复精神，扎实推进苏南重点城市要素市场化配置综合改革试点工作",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于徐州市所辖各县（市、区）征地区片综合地价执行标准的批",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于徐州市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 142.43,
+    "usage_tokens": 11539,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕18号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政复〔2026〕18号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.75,
+        "evidence": "征收农民集体所有农用地的，鼓楼区、云龙区、泉山区分别将本辖区整体划定为一个区片，执行标准均为54000元/亩",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于徐飞虎等职务任免的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于徐飞虎等职务任免的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 16.88,
+    "usage_tokens": 1936,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于扬州市所辖各县（市、区）征地区片综合地价执行标准的批",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于扬州市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 258.37,
+    "usage_tokens": 18824,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕9号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.8,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于授予2025年江苏省省长质量奖的决定",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于授予2025年江苏省省长质量奖的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 108.92,
+    "usage_tokens": 8309,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2025〕105号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《江苏省省长质量奖管理办法》",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "根据《江苏省省长质量奖管理办法》等规定，省人民政府决定授予……2025年江苏省省长质量奖",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于授予30家台资企业江苏省紫峰奖的决定",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于授予30家台资企业江苏省紫峰奖的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 287.31,
+    "usage_tokens": 20616,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2025〕104号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2025〕104号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.9,
+        "evidence": "为表彰台资企业扎根江苏、创新发展的积极贡献，省政府决定授予庆鼎精密电子（淮安）有限公司等30家台资企业江苏省紫峰奖……一、突出贡献企业奖（6家）",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于授予江苏人居环境奖的决定",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于授予江苏人居环境奖的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 113.8,
+    "usage_tokens": 7782,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕57号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕57号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.55,
+        "evidence": "省政府决定，授予南京市秦淮区西白菜园历史风貌区更新改造等96个项目江苏人居环境奖。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于授予第七届“江苏慈善奖”的决定",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于授予第七届“江苏慈善奖”的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 133.15,
+    "usage_tokens": 11182,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于推动法律服务高质量发展的实施意见",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于推动法律服务高质量发展的实施意见.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 327.06,
+    "usage_tokens": 27677,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕52号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕52号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.5,
+        "evidence": "搭建法律服务供需对接平台，支持新质生产力法律服务协同创新中心等载体建设，推动法律服务机构与优势产业、重点行业及企业等开展常态化对接",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于无锡市惠山区玉祁街道礼社村村庄规划和历史文化名村保护",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于无锡市惠山区玉祁街道礼社村村庄规划和历史文化名村保护.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 36.54,
+    "usage_tokens": 3426,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于无锡市所辖各区（市）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于无锡市所辖各区（市）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 132.58,
+    "usage_tokens": 9973,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕17号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于泰州市所辖各区（市）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于泰州市所辖各区（市）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 135.22,
+    "usage_tokens": 10130,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕10号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于淮安市所辖各县（区）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于淮安市所辖各县（区）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 146.29,
+    "usage_tokens": 11580,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕24号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.75,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于盐城市所辖各县（市、区）征地区片综合地价执行标准的批",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于盐城市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 105.89,
+    "usage_tokens": 8016,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕19号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.85,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于组建江苏省文化科技控股集团有限公司的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于组建江苏省文化科技控股集团有限公司的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 71.18,
+    "usage_tokens": 4189,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于苏州市所辖各区（市）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于苏州市所辖各区（市）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 173.03,
+    "usage_tokens": 13140,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕13号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于表彰2025年江苏技术技能大奖获奖人员的决定",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于表彰2025年江苏技术技能大奖获奖人员的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 76.37,
+    "usage_tokens": 8160,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕12号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕12号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.95,
+        "evidence": "省政府决定，授予王剑等20人“江苏大工匠”称号",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于设置常州信息职业技术大学的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于设置常州信息职业技术大学的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 26.08,
+    "usage_tokens": 2498,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于设置江苏建筑职业技术大学的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于设置江苏建筑职业技术大学的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 73.36,
+    "usage_tokens": 5127,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于进一步完善投融资机制加快高速公路和干线航道建设的意见",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于进一步完善投融资机制加快高速公路和干线航道建设的意见.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 201.58,
+    "usage_tokens": 17294,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕37号",
+        "subject_type": "Policy",
+        "relation": "废止替代",
+        "object_id": "苏政发〔2017〕79号",
+        "object_type": "Policy",
+        "confidence": 0.98,
+        "evidence": "本意见自印发之日起实施，《省政府关于进一步加快推进高速公路和干线航道建设的意见》（苏政发〔2017〕79号）同时废止。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于进一步深化零基预算改革全面提升财政科学管理效能的实施",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于进一步深化零基预算改革全面提升财政科学管理效能的实施.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 232.66,
+    "usage_tokens": 19747,
+    "invalid_items": 1,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于连云港市所辖各县（区）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于连云港市所辖各县（区）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 110.85,
+    "usage_tokens": 8866,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕20号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.8,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定。",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于邱志强等职务任免的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于邱志强等职务任免的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 14.77,
+    "usage_tokens": 2003,
+    "invalid_items": 0,
+    "triples": []
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府关于镇江市所辖各区（市）征地区片综合地价执行标准的批复",
+    "source_file": "js_江苏省人民政府_政府文件_省政府关于镇江市所辖各区（市）征地区片综合地价执行标准的批复.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 259.73,
+    "usage_tokens": 18616,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政复〔2026〕25号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "苏政规〔2025〕5号",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "征收集体建设用地、集体未利用地以及涉及征收依法取得的集体经营性建设用地的，按照《省政府关于公布江苏省征地区片综合地价最低标准的通知》（苏政规〔2025〕5号）要求确定",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_政府文件_省政府印发关于科技强农若干政策措施的通知",
+    "source_file": "js_江苏省人民政府_政府文件_省政府印发关于科技强农若干政策措施的通知.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 142.4,
+    "usage_tokens": 15030,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕3号",
+        "subject_type": "Policy",
+        "relation": "含支持事项",
+        "object_id": "苏政发〔2026〕3号#S1",
+        "object_type": "Subsidy",
+        "confidence": 0.55,
+        "evidence": "发挥在江苏农业领域全国重点实验室作用，给予持续稳定支持。（省科技厅、省财政厅负责）",
+        "source_policy_id": ""
+      }
+    ]
+  },
+  {
+    "file_id": "js_江苏省人民政府_最新公报_省政府关于公布第二届江苏专利奖的决定",
+    "source_file": "js_江苏省人民政府_最新公报_省政府关于公布第二届江苏专利奖的决定.html",
+    "model": "glm-5.3-flash",
+    "latency_s": 147.86,
+    "usage_tokens": 13767,
+    "invalid_items": 0,
+    "triples": [
+      {
+        "subject_id": "苏政发〔2026〕84号",
+        "subject_type": "Policy",
+        "relation": "隶属",
+        "object_id": "《江苏专利奖评奖办法》",
+        "object_type": "Policy",
+        "confidence": 0.9,
+        "evidence": "根据《江苏专利奖评奖办法》等规定，省人民政府决定授予“柔性直流海缆”等10个项目第二届江苏专利金奖",
+        "source_policy_id": ""
+      }
+    ]
+  }
+]

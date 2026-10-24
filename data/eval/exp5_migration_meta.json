@@ -1,0 +1,32 @@
+{
+  "source": "jiangsu col84242 (from col46144)",
+  "config_changes": 1,
+  "downloaded": 20,
+  "elapsed_min": 1.7,
+  "sample_extraction": [
+    {
+      "file": "cz_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办",
+      "triples": 1,
+      "auto": 1,
+      "pass_rate": 1.0,
+      "latency": 334.23,
+      "tokens": 19150
+    },
+    {
+      "file": "cz_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于",
+      "triples": 1,
+      "auto": 1,
+      "pass_rate": 1.0,
+      "latency": 295.22,
+      "tokens": 32163
+    },
+    {
+      "file": "cz_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于",
+      "triples": 1,
+      "auto": 1,
+      "pass_rate": 1.0,
+      "latency": 229.61,
+      "tokens": 23868
+    }
+  ]
+}

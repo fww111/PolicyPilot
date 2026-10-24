@@ -1,0 +1,236 @@
+{
+  "summary": {
+    "n": 20,
+    "llm": {
+      "accuracy": 1.0,
+      "avg_latency_s": 4.5,
+      "total_tokens": 8890
+    },
+    "predicate": {
+      "accuracy": 1.0,
+      "avg_latency_ms": 0.0
+    }
+  },
+  "cases": [
+    {
+      "case_id": "E001",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.7,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 391
+    },
+    {
+      "case_id": "E002",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 2.4,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 309
+    },
+    {
+      "case_id": "E003",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.9,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 399
+    },
+    {
+      "case_id": "E004",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 5.2,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 581
+    },
+    {
+      "case_id": "E005",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 2.4,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 315
+    },
+    {
+      "case_id": "E006",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 2.1,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 275
+    },
+    {
+      "case_id": "E007",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 9.2,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 783
+    },
+    {
+      "case_id": "E008",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 9.4,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 772
+    },
+    {
+      "case_id": "E009",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 6.1,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 446
+    },
+    {
+      "case_id": "E010",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.2,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 367
+    },
+    {
+      "case_id": "E011",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 4.6,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 355
+    },
+    {
+      "case_id": "E012",
+      "gold": "待补信息",
+      "llm": "待补信息",
+      "llm_ok": true,
+      "llm_latency_s": 5.2,
+      "pred": "待补信息",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 505
+    },
+    {
+      "case_id": "E013",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.0,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 334
+    },
+    {
+      "case_id": "E014",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.3,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 347
+    },
+    {
+      "case_id": "E015",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 8.3,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 764
+    },
+    {
+      "case_id": "E016",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.6,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 384
+    },
+    {
+      "case_id": "E017",
+      "gold": "待补信息",
+      "llm": "待补信息",
+      "llm_ok": true,
+      "llm_latency_s": 4.7,
+      "pred": "待补信息",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 482
+    },
+    {
+      "case_id": "E018",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.0,
+      "pred": "满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 337
+    },
+    {
+      "case_id": "E019",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 3.2,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 346
+    },
+    {
+      "case_id": "E020",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "llm_latency_s": 4.0,
+      "pred": "不满足",
+      "pred_ok": true,
+      "pred_latency_ms": 0.0,
+      "tokens": 398
+    }
+  ]
+}

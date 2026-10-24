@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "case_id": "V2-H1a",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "pred": "满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H1b",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "pred": "不满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H2a",
+      "gold": "满足",
+      "llm": "满足",
+      "llm_ok": true,
+      "pred": "满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H2b",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "pred": "不满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H3a",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "pred": "不满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H3b",
+      "gold": "满足",
+      "llm": "待补信息",
+      "llm_ok": false,
+      "pred": "满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H4a",
+      "gold": "满足",
+      "llm": "待补信息",
+      "llm_ok": false,
+      "pred": "满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H4b",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "pred": "不满足",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H4c",
+      "gold": "待补信息",
+      "llm": "待补信息",
+      "llm_ok": true,
+      "pred": "待补信息",
+      "hypothesis": "V2"
+    },
+    {
+      "case_id": "V2-H1c",
+      "gold": "不满足",
+      "llm": "不满足",
+      "llm_ok": true,
+      "pred": "不满足",
+      "hypothesis": "V2"
+    }
+  ]
+}

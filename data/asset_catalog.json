@@ -1,0 +1,1998 @@
+{
+  "generated_at": "2026-10-24T21:45:51",
+  "assets": [
+    {
+      "asset_id": "AST-RAW-9b39e3f2",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_​江苏省2025年政府信息公开工作年度报告",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_​江苏省2025年政府信息公开工作年度报告.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-213c326b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅2025年政府信息公开工作年度",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅2025年政府信息公开工作年度.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-2ee77d3a",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅_中国气象局办公室关于印发江苏",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_江苏省人民政府办公厅_中国气象局办公室关于印发江苏.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-6b2f955b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于促进江苏省政府投资基金高质量发展的",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于促进江苏省政府投资基金高质量发展的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-b19e1437",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加强海外专利布局的实施意见",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加强海外专利布局的实施意见.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-83162ea5",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加快发展赛事经济提振体育休闲消费的",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于加快发展赛事经济提振体育休闲消费的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-bd6d03a5",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”农业农村现代化",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”农业农村现代化.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-880d83c1",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”海洋经济发展规",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省“十五五”海洋经济发展规.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-8cc13736",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省人民政府2026年度重大",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省人民政府2026年度重大.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-74db8f66",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省优化营商环境行动方案（2",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省优化营商环境行动方案（2.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-62362b0d",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省低温雨雪冰冻灾害应急预案",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省低温雨雪冰冻灾害应急预案.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-762dee62",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省促进残疾人就业若干措施的",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省促进残疾人就业若干措施的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-3d9bf42a",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省农村寄递物流体系优化提升",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省农村寄递物流体系优化提升.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-cf1df485",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省化工产业结构调整限制和淘",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省化工产业结构调整限制和淘.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e1bbe35a",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省城市基础设施生命线安全工",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省城市基础设施生命线安全工.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-4a18b37e",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水上交通安全监管和救助系",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水上交通安全监管和救助系.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-03a080f8",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水运口岸码头泊位开放管理",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省水运口岸码头泊位开放管理.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-1616b4f4",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省治理交通拥堵专项行动方案",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省治理交通拥堵专项行动方案.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-c7f53c07",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省深入推进城市体检工作方案",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省深入推进城市体检工作方案.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-5095eb32",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省生态空间管控区域管理办法",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省生态空间管控区域管理办法.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-d913757b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省省属企业违规经营投资责任",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省省属企业违规经营投资责任.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-b0882023",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省落实水资源刚性约束制度考",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省落实水资源刚性约束制度考.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-984a87c2",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省道路交通安全宣传教育提质",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省道路交通安全宣传教育提质.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-7eb205e9",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省里下河地区滞涝圩管理办法",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发江苏省里下河地区滞涝圩管理办法.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a0ec588b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发省政府2026年立法工作计划的",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于印发省政府2026年立法工作计划的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-d5b97516",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于支持优质企业增资扩产提质增效的实施",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于支持优质企业增资扩产提质增效的实施.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-ec5dce07",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于突出市场导向建设科技成果转化高地的",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于突出市场导向建设科技成果转化高地的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-64bb0981",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步加强县域特色优势产业发展的实",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步加强县域特色优势产业发展的实.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-957d49a7",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步完善设区市与市辖区财政体制的",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步完善设区市与市辖区财政体制的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-71a36349",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步推进城市公共交通高质量发展的",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅关于进一步推进城市公共交通高质量发展的.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-11b07f1e",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于优化金融生态环境促进金融业高质",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于优化金融生态环境促进金融业高质.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-8d8a637b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加力支持工业企业技术改造若干措",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加力支持工业企业技术改造若干措.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-3680a41d",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加快全省建筑业转型升级若干措施",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于加快全省建筑业转型升级若干措施.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a879e23b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于强化稳岗扩容提质促进高质量充分",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于强化稳岗扩容提质促进高质量充分.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-41486282",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推动游艇业发展若干措施的通知",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推动游艇业发展若干措施的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a4bc79f5",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推行专项信用报告替代有无违法违",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于推行专项信用报告替代有无违法违.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-22509862",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于支持青年社区建设若干措施的通知",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于支持青年社区建设若干措施的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-7cadda92",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于紧抓当前提质增效推动经济持续向",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于紧抓当前提质增效推动经济持续向.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-3e3c4662",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步优化民营经济金融服务若干",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步优化民营经济金融服务若干.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-3a89f953",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步强化食品安全全链条监管若",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步强化食品安全全链条监管若.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-2a0c5c2f",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步提升养老服务保障水平若干",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步提升养老服务保障水平若干.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-4b1fded9",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步支持城市更新行动若干政策",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅印发关于进一步支持城市更新行动若干政策.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-14b89d15",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省商务厅等部门关于江苏省跨境电商提",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省商务厅等部门关于江苏省跨境电商提.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-65da87ec",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省财政厅关于规范政府和社会资本合作",
+      "file": "js_江苏省人民政府_政府办公室(厅)文件_省政府办公厅转发省财政厅关于规范政府和社会资本合作.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-943ff021",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_​省政府关于2024年度江苏省科学技术奖励的决定",
+      "file": "js_江苏省人民政府_政府文件_​省政府关于2024年度江苏省科学技术奖励的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-18808a27",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_​省政府关于表扬第八届江苏技能状元大赛表现突出选手的通报",
+      "file": "js_江苏省人民政府_政府文件_​省政府关于表扬第八届江苏技能状元大赛表现突出选手的通报.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a1ac1c4a",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_《江苏省人民政府关于废止和修改部分省政府规章的决定》（省政府令",
+      "file": "js_江苏省人民政府_政府文件_《江苏省人民政府关于废止和修改部分省政府规章的决定》（省政府令.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-14eff23e",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_《江苏省农业机械推广办法》（省政府令第193号）",
+      "file": "js_江苏省人民政府_政府文件_《江苏省农业机械推广办法》（省政府令第193号）.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-840c7d4c",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_《江苏省实验动物管理办法》（省政府令第191号）",
+      "file": "js_江苏省人民政府_政府文件_《江苏省实验动物管理办法》（省政府令第191号）.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-ae9c024b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_《江苏省物资储备管理办法》（省政府令第190号）",
+      "file": "js_江苏省人民政府_政府文件_《江苏省物资储备管理办法》（省政府令第190号）.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a1159b0a",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_江苏省人民政府关于公布第二批江苏省历史文化街区的通知",
+      "file": "js_江苏省人民政府_政府文件_江苏省人民政府关于公布第二批江苏省历史文化街区的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-c3c33014",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_江苏省人民政府关于废止和修改部分行政规范性文件的决定",
+      "file": "js_江苏省人民政府_政府文件_江苏省人民政府关于废止和修改部分行政规范性文件的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-17290754",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_江苏省人民政府关于省政府有关领导同志工作分工的通知",
+      "file": "js_江苏省人民政府_政府文件_江苏省人民政府关于省政府有关领导同志工作分工的通知.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-343180b3",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在南四湖、韩庄运河中运河提标工程建设范围",
+      "file": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在南四湖、韩庄运河中运河提标工程建设范围.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-5667c047",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在江苏省太湖流域太湖东片排涝工程建设范围",
+      "file": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在江苏省太湖流域太湖东片排涝工程建设范围.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-31ed7cda",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在龙沟河闸、北六塘河闸拆建工程建设范围内",
+      "file": "js_江苏省人民政府_政府文件_江苏省人民政府关于禁止在龙沟河闸、北六塘河闸拆建工程建设范围内.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-25b04775",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于俞金红等职务任免的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于俞金红等职务任免的通知.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-6996bdaf",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于全省“十五五”期间年森林采伐限额的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于全省“十五五”期间年森林采伐限额的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a50038e9",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于公布江苏省征地区片综合地价最低标准的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于公布江苏省征地区片综合地价最低标准的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-87f1240f",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于公布江苏省第十八届哲学社会科学优秀成果奖的决定",
+      "file": "js_江苏省人民政府_政府文件_省政府关于公布江苏省第十八届哲学社会科学优秀成果奖的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-77189408",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于公布第二届江苏专利奖的决定",
+      "file": "js_江苏省人民政府_政府文件_省政府关于公布第二届江苏专利奖的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-1d219a44",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于划定南京市雨花台烈士陵园烈士纪念设施保护范围的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于划定南京市雨花台烈士陵园烈士纪念设施保护范围的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-53ad7d3e",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于划定淮海战役烈士纪念塔烈士纪念设施保护范围的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于划定淮海战役烈士纪念塔烈士纪念设施保护范围的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-c3734f39",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于南京市所辖各区征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于南京市所辖各区征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-febe6ee8",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于南通市所辖各县（市、区）征地区片综合地价执行标准的批",
+      "file": "js_江苏省人民政府_政府文件_省政府关于南通市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a9ed8f5b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发中国（江苏）自由贸易试验区生物医药全产业链开放创",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发中国（江苏）自由贸易试验区生物医药全产业链开放创.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-c2891b82",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发江苏省“人工智能＋”行动方案的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省“人工智能＋”行动方案的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e1f92c0a",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发江苏省公共信用信息管理办法的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省公共信用信息管理办法的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-96ee4ed8",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发江苏省国民经济和社会发展第十五个五年规划纲要的通",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省国民经济和社会发展第十五个五年规划纲要的通.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-498915dc",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发江苏省服务业扩能提质行动方案（2026－2030",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省服务业扩能提质行动方案（2026－2030.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-84125be1",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发江苏省防范和处置非法集资工作实施细则的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发江苏省防范和处置非法集资工作实施细则的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-2ddf7a38",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发江苏高水平大学建设方案（2026－2030年）的",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发江苏高水平大学建设方案（2026－2030年）的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-8f6c280e",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于印发苏州市激发产业创新活力专项行动方案的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于印发苏州市激发产业创新活力专项行动方案的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-5257c132",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意仪征港务公用码头1＃、2＃泊位等对外开放的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意仪征港务公用码头1＃、2＃泊位等对外开放的批复.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e9084d14",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意将宿迁市列为江苏省历史文化名城的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意将宿迁市列为江苏省历史文化名城的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-7b4e3c75",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意张家港永嘉集装箱码头有限公司18＃泊位等对外开放",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意张家港永嘉集装箱码头有限公司18＃泊位等对外开放.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-ecc592ed",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意扬州港扬州港区3号泊位对外开放的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意扬州港扬州港区3号泊位对外开放的批复.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-8a518619",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意招商局重工（江苏）有限公司1#、2#船坞及3#、",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意招商局重工（江苏）有限公司1#、2#船坞及3#、.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-4d4a5490",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意江苏洋口港港务有限公司液体化工码头G2、G3泊位",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意江苏洋口港港务有限公司液体化工码头G2、G3泊位.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-ff1610ea",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意灌云县临港产业区化工产业园开展扩区筹备工作的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意灌云县临港产业区化工产业园开展扩区筹备工作的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-7e5566c6",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意设立张家港技师学院的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意设立张家港技师学院的批复.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-9d6ae3d1",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于同意连云港石化产业基地开展扩区筹备工作的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于同意连云港石化产业基地开展扩区筹备工作的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-43387424",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于宿迁市所辖各县（区）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于宿迁市所辖各县（区）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-2c95fa7c",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于常州市所辖各区（市）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于常州市所辖各区（市）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-594130c8",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于开展苏南重点城市要素市场化配置综合改革试点的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于开展苏南重点城市要素市场化配置综合改革试点的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-3f1e8691",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于徐州市所辖各县（市、区）征地区片综合地价执行标准的批",
+      "file": "js_江苏省人民政府_政府文件_省政府关于徐州市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-30a22618",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于徐飞虎等职务任免的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于徐飞虎等职务任免的通知.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e2904b0f",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于扬州市所辖各县（市、区）征地区片综合地价执行标准的批",
+      "file": "js_江苏省人民政府_政府文件_省政府关于扬州市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-0e795e50",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于授予2025年江苏省省长质量奖的决定",
+      "file": "js_江苏省人民政府_政府文件_省政府关于授予2025年江苏省省长质量奖的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-c9fc4874",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于授予30家台资企业江苏省紫峰奖的决定",
+      "file": "js_江苏省人民政府_政府文件_省政府关于授予30家台资企业江苏省紫峰奖的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-5e9df38d",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于授予江苏人居环境奖的决定",
+      "file": "js_江苏省人民政府_政府文件_省政府关于授予江苏人居环境奖的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-b3382b01",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于授予第七届“江苏慈善奖”的决定",
+      "file": "js_江苏省人民政府_政府文件_省政府关于授予第七届“江苏慈善奖”的决定.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-48016f34",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于推动法律服务高质量发展的实施意见",
+      "file": "js_江苏省人民政府_政府文件_省政府关于推动法律服务高质量发展的实施意见.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-46781798",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于无锡市惠山区玉祁街道礼社村村庄规划和历史文化名村保护",
+      "file": "js_江苏省人民政府_政府文件_省政府关于无锡市惠山区玉祁街道礼社村村庄规划和历史文化名村保护.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-5328ecd2",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于无锡市所辖各区（市）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于无锡市所辖各区（市）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-282cf16c",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于泰州市所辖各区（市）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于泰州市所辖各区（市）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-4556a04c",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于淮安市所辖各县（区）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于淮安市所辖各县（区）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-356a18b7",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于盐城市所辖各县（市、区）征地区片综合地价执行标准的批",
+      "file": "js_江苏省人民政府_政府文件_省政府关于盐城市所辖各县（市、区）征地区片综合地价执行标准的批.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-ecb8e44d",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于组建江苏省文化科技控股集团有限公司的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于组建江苏省文化科技控股集团有限公司的通知.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-03fe2d69",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于苏州市所辖各区（市）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于苏州市所辖各区（市）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-d0c4be7b",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于表彰2025年江苏技术技能大奖获奖人员的决定",
+      "file": "js_江苏省人民政府_政府文件_省政府关于表彰2025年江苏技术技能大奖获奖人员的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-b215ab46",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于设置常州信息职业技术大学的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于设置常州信息职业技术大学的通知.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-6e17ca9a",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于设置江苏建筑职业技术大学的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于设置江苏建筑职业技术大学的通知.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-02c81278",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于进一步完善投融资机制加快高速公路和干线航道建设的意见",
+      "file": "js_江苏省人民政府_政府文件_省政府关于进一步完善投融资机制加快高速公路和干线航道建设的意见.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-1bc7b8b5",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于进一步深化零基预算改革全面提升财政科学管理效能的实施",
+      "file": "js_江苏省人民政府_政府文件_省政府关于进一步深化零基预算改革全面提升财政科学管理效能的实施.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-adf3bc4f",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于连云港市所辖各县（区）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于连云港市所辖各县（区）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-fa13f2d5",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于邱志强等职务任免的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府关于邱志强等职务任免的通知.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a64304ff",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府关于镇江市所辖各区（市）征地区片综合地价执行标准的批复",
+      "file": "js_江苏省人民政府_政府文件_省政府关于镇江市所辖各区（市）征地区片综合地价执行标准的批复.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-39f80f8f",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_政府文件_省政府印发关于科技强农若干政策措施的通知",
+      "file": "js_江苏省人民政府_政府文件_省政府印发关于科技强农若干政策措施的通知.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-0eea1884",
+      "kind": "raw_policy",
+      "name": "js_江苏省人民政府_最新公报_省政府关于公布第二届江苏专利奖的决定",
+      "file": "js_江苏省人民政府_最新公报_省政府关于公布第二届江苏专利奖的决定.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-1d72375f",
+      "kind": "raw_policy",
+      "name": "sz_2025年度专利密集型产品名单公布_苏州上榜224件_全省第一",
+      "file": "sz_2025年度专利密集型产品名单公布_苏州上榜224件_全省第一.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-58a53bdc",
+      "kind": "raw_policy",
+      "name": "sz_53处老宅成功牵手“合伙人”_姑苏区持续推进古城保护更新",
+      "file": "sz_53处老宅成功牵手“合伙人”_姑苏区持续推进古城保护更新.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-ba4d0dc2",
+      "kind": "raw_policy",
+      "name": "sz_一图读懂丨关于支持青年社区建设的若干措施",
+      "file": "sz_一图读懂丨关于支持青年社区建设的若干措施.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-7d322ada",
+      "kind": "raw_policy",
+      "name": "sz_中到大雨、局部暴雨！台风“蔷琵”对苏州有明显风雨影响",
+      "file": "sz_中到大雨、局部暴雨！台风“蔷琵”对苏州有明显风雨影响.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-c5a663c7",
+      "kind": "raw_policy",
+      "name": "sz_中国厨师节“苏州开席”_非遗美食保护联合倡议发布",
+      "file": "sz_中国厨师节“苏州开席”_非遗美食保护联合倡议发布.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-8ed4e285",
+      "kind": "raw_policy",
+      "name": "sz_中国厨师节，即将在苏州启幕！",
+      "file": "sz_中国厨师节，即将在苏州启幕！.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-508eb550",
+      "kind": "raw_policy",
+      "name": "sz_促进集成电路产业高能级发展_苏州工业园区海关推出惠企措施3.0版",
+      "file": "sz_促进集成电路产业高能级发展_苏州工业园区海关推出惠企措施3.0版.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-f39579f8",
+      "kind": "raw_policy",
+      "name": "sz_全市交通重点项目四季度攻坚调度会召开",
+      "file": "sz_全市交通重点项目四季度攻坚调度会召开.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-1cf8a6fe",
+      "kind": "raw_policy",
+      "name": "sz_关于《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用品牌管理",
+      "file": "sz_关于《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用品牌管理.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-2be16aa4",
+      "kind": "raw_policy",
+      "name": "sz_关于《苏州市“十五五”农业农村发展规划（征求意见稿）》公开征求意见的结果反馈",
+      "file": "sz_关于《苏州市“十五五”农业农村发展规划（征求意见稿）》公开征求意见的结果反馈.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-fee96614",
+      "kind": "raw_policy",
+      "name": "sz_关于《苏州市“十五五”安全生产、应急管理和消防救援事业发展规划（征求意见稿）》公开征求意",
+      "file": "sz_关于《苏州市“十五五”安全生产、应急管理和消防救援事业发展规划（征求意见稿）》公开征求意.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e4d93f2c",
+      "kind": "raw_policy",
+      "name": "sz_关于《苏州市养殖水域滩涂规划（2020-2030年）2025年修编版（征求意见稿）》公开",
+      "file": "sz_关于《苏州市养殖水域滩涂规划（2020-2030年）2025年修编版（征求意见稿）》公开.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-ae424c03",
+      "kind": "raw_policy",
+      "name": "sz_关于《苏州市宠物诊疗行业收费项目清单（征求意见稿）》公开征求意见的结果反馈",
+      "file": "sz_关于《苏州市宠物诊疗行业收费项目清单（征求意见稿）》公开征求意见的结果反馈.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-9173797f",
+      "kind": "raw_policy",
+      "name": "sz_关于公开征求《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用",
+      "file": "sz_关于公开征求《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e9a40310",
+      "kind": "raw_policy",
+      "name": "sz_关于开展2026年第二批次苏州市老旧营运货车报废更新资格预约登记的通告",
+      "file": "sz_关于开展2026年第二批次苏州市老旧营运货车报废更新资格预约登记的通告.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 1,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 1
+      }
+    },
+    {
+      "asset_id": "AST-RAW-56f2e718",
+      "kind": "raw_policy",
+      "name": "sz_关于征求《苏州市农业农村局关于修改部分规范性文件的决定（征求意见稿）》意见的公告",
+      "file": "sz_关于征求《苏州市农业农村局关于修改部分规范性文件的决定（征求意见稿）》意见的公告.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 2,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 2
+      }
+    },
+    {
+      "asset_id": "AST-RAW-a0806fef",
+      "kind": "raw_policy",
+      "name": "sz_关于征求《苏州市宠物诊疗行业收费项目清单（征求意见稿）》意见的公告",
+      "file": "sz_关于征求《苏州市宠物诊疗行业收费项目清单（征求意见稿）》意见的公告.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-81592214",
+      "kind": "raw_policy",
+      "name": "sz_关于拟废止《苏州市建筑施工噪声污染防治管理规定》公开征求意见的反馈",
+      "file": "sz_关于拟废止《苏州市建筑施工噪声污染防治管理规定》公开征求意见的反馈.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-d41f736b",
+      "kind": "raw_policy",
+      "name": "sz_关于拟废止《苏州市扬尘污染防治管理办法》征求意见公告的反馈",
+      "file": "sz_关于拟废止《苏州市扬尘污染防治管理办法》征求意见公告的反馈.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-c3c6c5d5",
+      "kind": "raw_policy",
+      "name": "sz_台风“蔷琵”最新动态，注意防范",
+      "file": "sz_台风“蔷琵”最新动态，注意防范.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e240c261",
+      "kind": "raw_policy",
+      "name": "sz_吴中区4.83万亩水稻开镰_今年秋粮总产预计冲到2.86万吨",
+      "file": "sz_吴中区4.83万亩水稻开镰_今年秋粮总产预计冲到2.86万吨.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-b06c22c7",
+      "kind": "raw_policy",
+      "name": "sz_太仓中荷村入选全国示范性老年友好型社区",
+      "file": "sz_太仓中荷村入选全国示范性老年友好型社区.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-9a548530",
+      "kind": "raw_policy",
+      "name": "sz_局部暴雨、最大阵风8级！今天下午到后天“蔷琵”外围影响苏州",
+      "file": "sz_局部暴雨、最大阵风8级！今天下午到后天“蔷琵”外围影响苏州.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-f9e8e89a",
+      "kind": "raw_policy",
+      "name": "sz_常熟2项工程获评国家优质工程奖",
+      "file": "sz_常熟2项工程获评国家优质工程奖.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-27da42c1",
+      "kind": "raw_policy",
+      "name": "sz_张家港把《钱氏家训》融入思政课程",
+      "file": "sz_张家港把《钱氏家训》融入思政课程.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-0408735d",
+      "kind": "raw_policy",
+      "name": "sz_昆山市科技招商推介会举行_8个科招项目集中签约",
+      "file": "sz_昆山市科技招商推介会举行_8个科招项目集中签约.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-f458bc4a",
+      "kind": "raw_policy",
+      "name": "sz_最近鼻病毒检出较多？苏州疾控最新提醒",
+      "file": "sz_最近鼻病毒检出较多？苏州疾控最新提醒.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e99f42d9",
+      "kind": "raw_policy",
+      "name": "sz_江苏省2027年普通高校招生考试报名办法公布",
+      "file": "sz_江苏省2027年普通高校招生考试报名办法公布.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 12,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 12
+      }
+    },
+    {
+      "asset_id": "AST-RAW-34249b97",
+      "kind": "raw_policy",
+      "name": "sz_清陶动力固态动力电池项目投产仪式举行_总投资80亿元_范波出席",
+      "file": "sz_清陶动力固态动力电池项目投产仪式举行_总投资80亿元_范波出席.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-01838745",
+      "kind": "raw_policy",
+      "name": "sz_苏州市2026年家电以旧换新、数码和智能产品购新补贴活动品类再次升级",
+      "file": "sz_苏州市2026年家电以旧换新、数码和智能产品购新补贴活动品类再次升级.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-cd85e564",
+      "kind": "raw_policy",
+      "name": "sz_苏州市2026年重阳节系列活动正式启动",
+      "file": "sz_苏州市2026年重阳节系列活动正式启动.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-1d81eee7",
+      "kind": "raw_policy",
+      "name": "sz_苏州市人民政府门户网站工作年度报表（2025年度）",
+      "file": "sz_苏州市人民政府门户网站工作年度报表（2025年度）.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-05c6b189",
+      "kind": "raw_policy",
+      "name": "sz_苏州市医保局积极打造AI智能服务提升群众办事便利度",
+      "file": "sz_苏州市医保局积极打造AI智能服务提升群众办事便利度.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-53af1dc0",
+      "kind": "raw_policy",
+      "name": "sz_苏州市委常委会召开会议",
+      "file": "sz_苏州市委常委会召开会议.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-1c676ea7",
+      "kind": "raw_policy",
+      "name": "sz_苏州市开展再生资源回收行业安全生产专项整治",
+      "file": "sz_苏州市开展再生资源回收行业安全生产专项整治.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-e65431e7",
+      "kind": "raw_policy",
+      "name": "sz_苏州市推动大规模设备更新和消费品以旧换新实施方案专题-2024年专题",
+      "file": "sz_苏州市推动大规模设备更新和消费品以旧换新实施方案专题-2024年专题.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 23,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 23
+      }
+    },
+    {
+      "asset_id": "AST-RAW-3519c7f8",
+      "kind": "raw_policy",
+      "name": "sz_苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》公开征求意",
+      "file": "sz_苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》公开征求意.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-90b6de92",
+      "kind": "raw_policy",
+      "name": "sz_苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》征求意见的",
+      "file": "sz_苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》征求意见的.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 2,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 2
+      }
+    },
+    {
+      "asset_id": "AST-RAW-77922d58",
+      "kind": "raw_policy",
+      "name": "sz_部署防御台风“蔷琵”工作_紧盯秋台风与冷空气叠加风险",
+      "file": "sz_部署防御台风“蔷琵”工作_紧盯秋台风与冷空气叠加风险.html",
+      "format": "html",
+      "status": "parsed",
+      "n_triples": 0,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 0
+      }
+    },
+    {
+      "asset_id": "AST-RAW-7d495e37",
+      "kind": "raw_policy",
+      "name": "sz_重大决策预公开／政策文件意见征集_-_苏州市人民政府",
+      "file": "sz_重大决策预公开／政策文件意见征集_-_苏州市人民政府.html",
+      "format": "html",
+      "status": "structured",
+      "n_triples": 4,
+      "lineage": {
+        "stage": "raw→parsed→structured",
+        "graph_edges_contributed": 4
+      }
+    },
+    {
+      "asset_id": "AST-KG-f548723f",
+      "kind": "knowledge_graph",
+      "name": "政策知识图谱（memory 引擎）",
+      "status": "serving",
+      "n_nodes": 636,
+      "n_edges": 678,
+      "lineage": {
+        "stage": "structured→graph→serving",
+        "serves": [
+          "query_policy_graph",
+          "check_policy_validity",
+          "check_eligibility"
+        ]
+      }
+    },
+    {
+      "asset_id": "AST-BEN-a98d969f",
+      "kind": "benchmark",
+      "name": "PolicyBench 评测基准（80 题）",
+      "status": "serving",
+      "n_items": 80,
+      "lineage": {
+        "stage": "graph→benchmark",
+        "serves": [
+          "E1/E2 实验",
+          "智能体评估"
+        ]
+      }
+    },
+    {
+      "asset_id": "AST-FB-1ab7042e",
+      "kind": "human_feedback",
+      "name": "复核反馈库（进化燃料）",
+      "status": "serving",
+      "n_records": 1,
+      "lineage": {
+        "stage": "review→strategy_v2",
+        "serves": [
+          "review_loop v2 策略约束"
+        ]
+      }
+    }
+  ]
+}

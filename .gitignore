@@ -1,0 +1,38 @@
+# 环境与密钥
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+
+# 数据（原始爬取物体积大，按需放开；解析产物建议入库）
+data/raw/*
+!data/raw/.gitkeep
+
+# 本地实验产物
+data/kg/*.dump
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# OCR临时文件
+*_big.png
+
+# LightRAG 索引缓存（可由 scripts/sota_lightrag.py index 重建）
+data/lightrag_index/
+
+# 下载的附件原件（可由数据源重新获取，台账见 asset_catalog.json）
+data/raw/attachments/
+
+# 爬虫临时产物
+baoming_form*.png
+reg_issue*.png
+nexent_*.png

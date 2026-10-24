@@ -1,0 +1,97 @@
+[
+  {
+    "batch": 1,
+    "files": 21,
+    "cum_files": 21,
+    "triples": 98,
+    "entity_types": 5,
+    "rel_types": 5,
+    "cond_fields": 2,
+    "new_this_batch": 12,
+    "new_detail": {
+      "new_entity_types": [
+        "Condition",
+        "Department",
+        "Policy",
+        "Subsidy",
+        "企业类别"
+      ],
+      "new_rel_types": [
+        "受理于",
+        "含支持事项",
+        "废止替代",
+        "适用于",
+        "隶属"
+      ],
+      "new_cond_fields": [
+        "industry_name",
+        "region_code"
+      ],
+      "new_total": 12
+    }
+  },
+  {
+    "batch": 2,
+    "files": 21,
+    "cum_files": 42,
+    "triples": 119,
+    "entity_types": 5,
+    "rel_types": 5,
+    "cond_fields": 2,
+    "new_this_batch": 0,
+    "new_detail": {
+      "new_entity_types": [],
+      "new_rel_types": [],
+      "new_cond_fields": [],
+      "new_total": 0
+    }
+  },
+  {
+    "batch": 3,
+    "files": 21,
+    "cum_files": 63,
+    "triples": 140,
+    "entity_types": 5,
+    "rel_types": 5,
+    "cond_fields": 2,
+    "new_this_batch": 0,
+    "new_detail": {
+      "new_entity_types": [],
+      "new_rel_types": [],
+      "new_cond_fields": [],
+      "new_total": 0
+    }
+  },
+  {
+    "batch": 4,
+    "files": 21,
+    "cum_files": 84,
+    "triples": 161,
+    "entity_types": 5,
+    "rel_types": 5,
+    "cond_fields": 2,
+    "new_this_batch": 0,
+    "new_detail": {
+      "new_entity_types": [],
+      "new_rel_types": [],
+      "new_cond_fields": [],
+      "new_total": 0
+    }
+  },
+  {
+    "batch": 5,
+    "files": 19,
+    "cum_files": 103,
+    "triples": 180,
+    "entity_types": 5,
+    "rel_types": 5,
+    "cond_fields": 2,
+    "new_this_batch": 0,
+    "new_detail": {
+      "new_entity_types": [],
+      "new_rel_types": [],
+      "new_cond_fields": [],
+      "new_total": 0
+    }
+  }
+]

@@ -1,0 +1,908 @@
+[
+  {
+    "q_type": "multi_hop",
+    "question": "我们是一家小型高级导游企业，目前在苏州/国家层面能申请哪些支持事项？",
+    "enterprise": {
+      "industry_name": "综合",
+      "qualifications": [
+        "高级导游"
+      ],
+      "size": "小型"
+    },
+    "gold_ids": [
+      "苏州市促进入境旅游若干措施#S8"
+    ],
+    "gold_answer": "共1项（详见gold_ids，人工校对请抽查前2项）",
+    "gold_policy_ids": [
+      "苏州市促进入境旅游若干措施"
+    ],
+    "difficulty": 1,
+    "item_id": "MU-0001"
+  },
+  {
+    "q_type": "multi_hop",
+    "question": "我们是一家小型文化、体育和娱乐业企业，目前在苏州/国家层面能申请哪些支持事项？",
+    "enterprise": {
+      "industry_name": "文化、体育和娱乐业",
+      "size": "小型"
+    },
+    "gold_ids": [
+      "苏州市促进入境旅游若干措施#S1",
+      "苏州市促进入境旅游若干措施#S7",
+      "苏州市促进入境旅游若干措施#S6",
+      "苏州市促进入境旅游若干措施#S4",
+      "苏州市促进入境旅游若干措施#S2",
+      "苏州市促进入境旅游若干措施#S3",
+      "苏州市促进入境旅游若干措施#S5"
+    ],
+    "gold_answer": "共7项（详见gold_ids，人工校对请抽查前2项）",
+    "gold_policy_ids": [
+      "苏州市促进入境旅游若干措施"
+    ],
+    "difficulty": 2,
+    "item_id": "MU-0002"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏州市化工重点监测点认定管理实施细则》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏州市化工重点监测点认定管理实施细则》已由《苏州市原化工重点监测点认定程序和监管办法（文号不详）》废止替代（对原认定程序和监管办法进行全面优化升级，制定了本《实施细则》…）",
+    "gold_policy_ids": [
+      "苏州市化工重点监测点认定管理实施细则",
+      "苏州市原化工重点监测点认定程序和监管办法（文号不详）"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0003"
+  },
+  {
+    "q_type": "validity",
+    "question": "《P_SZ_2025REV》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《P_SZ_2025REV》已由《P_SZ_2015》废止替代（《苏州市职工生育保险管理办法》（以下简称《办法》）已于近日修…）",
+    "gold_policy_ids": [
+      "P_SZ_2025REV",
+      "P_SZ_2015"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0004"
+  },
+  {
+    "q_type": "validity",
+    "question": "《《苏州市重污染天气应急预案》》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《《苏州市重污染天气应急预案》》已由《旧版《苏州市重污染天气应急预案》（名称未在原文给出，待人工确认）》废止替代（为充分衔接省预案的预警分级与响应机制……我市对市级预案进行修…）",
+    "gold_policy_ids": [
+      "《苏州市重污染天气应急预案》",
+      "旧版《苏州市重污染天气应急预案》（名称未在原文给出，待人工确认）"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0005"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》已由《苏州市餐饮业环境污染防治管理办法》废止替代（我局对《苏州市餐饮业环境污染防治管理办法》进行清理，形成《苏…）",
+    "gold_policy_ids": [
+      "苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）",
+      "苏州市餐饮业环境污染防治管理办法"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0006"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏政办规〔2025〕7号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏政办规〔2025〕7号》已由《苏政办发〔2020〕32号》废止替代（《省政府办公厅关于印发江苏省化工产业结构调整限制、淘汰和禁止…）",
+    "gold_policy_ids": [
+      "苏政办规〔2025〕7号",
+      "苏政办发〔2020〕32号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0007"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏政办规〔2025〕9号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏政办规〔2025〕9号》已由《苏政办规〔2024〕1号》废止替代（本办法自2026年2月5日起施行，有效期至2031年2月4日…）",
+    "gold_policy_ids": [
+      "苏政办规〔2025〕9号",
+      "苏政办规〔2024〕1号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0008"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏政办规〔2026〕1号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏政办规〔2026〕1号》已由《苏政办发〔2021〕3号》废止替代（《省政府办公厅关于印发江苏省生态空间管控区域调整管理办法的通…）",
+    "gold_policy_ids": [
+      "苏政办规〔2026〕1号",
+      "苏政办发〔2021〕3号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0009"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏政办发〔2026〕23号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏政办发〔2026〕23号》已由《苏政办发〔2013〕161号》废止替代（本方案自印发之日起施行，2013年8月27日印发的《省政府办…）",
+    "gold_policy_ids": [
+      "苏政办发〔2026〕23号",
+      "苏政办发〔2013〕161号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0010"
+  },
+  {
+    "q_type": "validity",
+    "question": "《江苏省人民政府令第192号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《江苏省人民政府令第192号》已由《江苏省人民政府令第105号》废止替代（附件1 江苏省人民政府决定废止的省政府规章 《江苏省土地利用…）",
+    "gold_policy_ids": [
+      "江苏省人民政府令第192号",
+      "江苏省人民政府令第105号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0011"
+  },
+  {
+    "q_type": "validity",
+    "question": "《江苏省人民政府令第193号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《江苏省人民政府令第193号》已由《江苏省人民政府令第200号（2002年版《江苏省农业机械推广办法》）》废止替代（本办法自2026年11月1日起施行。2002年12月4日江苏…）",
+    "gold_policy_ids": [
+      "江苏省人民政府令第193号",
+      "江苏省人民政府令第200号（2002年版《江苏省农业机械推广办法》）"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0012"
+  },
+  {
+    "q_type": "validity",
+    "question": "《江苏省人民政府令第191号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《江苏省人民政府令第191号》已由《江苏省人民政府令第45号》废止替代（本办法自2026年1月1日起施行。2008年9月2日江苏省人…）",
+    "gold_policy_ids": [
+      "江苏省人民政府令第191号",
+      "江苏省人民政府令第45号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0013"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏政规〔2026〕2号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏政规〔2026〕2号》已由《苏政发〔2003〕9号》废止替代（一、对《省政府关于进一步推进全省城市市政公用事业改革的意见》…）",
+    "gold_policy_ids": [
+      "苏政规〔2026〕2号",
+      "苏政发〔2003〕9号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0014"
+  },
+  {
+    "q_type": "validity",
+    "question": "《苏政发〔2026〕37号》所设立的支持事项现在还能申请吗？",
+    "gold_answer": "不能直接适用：《苏政发〔2026〕37号》已由《苏政发〔2017〕79号》废止替代（本意见自印发之日起实施，《省政府关于进一步加快推进高速公路和…）",
+    "gold_policy_ids": [
+      "苏政发〔2026〕37号",
+      "苏政发〔2017〕79号"
+    ],
+    "difficulty": 2,
+    "item_id": "VA-0015"
+  },
+  {
+    "q_type": "validity",
+    "question": "国发〔2015〕25号（2015.05.11发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "国发〔2015〕25号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0016"
+  },
+  {
+    "q_type": "validity",
+    "question": "财办金〔2020〕13号（2020.03.04发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "财办金〔2020〕13号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0017"
+  },
+  {
+    "q_type": "validity",
+    "question": "财办建〔2020〕6号（2020.03.23发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "财办建〔2020〕6号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0018"
+  },
+  {
+    "q_type": "validity",
+    "question": "财税〔2021〕10号（2021.03.23发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "财税〔2021〕10号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0019"
+  },
+  {
+    "q_type": "validity",
+    "question": "财建〔2021〕466号（2021.12.31发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "财建〔2021〕466号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0020"
+  },
+  {
+    "q_type": "validity",
+    "question": "国办函〔2017〕84号（2017.09.13发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "国办函〔2017〕84号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0021"
+  },
+  {
+    "q_type": "validity",
+    "question": "财政部 税务总局公告2021年第43号（2021.12.31发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "财政部 税务总局公告2021年第43号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0022"
+  },
+  {
+    "q_type": "validity",
+    "question": "国发〔2015〕43号（2015.08.13发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "国发〔2015〕43号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0023"
+  },
+  {
+    "q_type": "validity",
+    "question": "财政部公告2019年第92号（2019.11.11发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "财政部公告2019年第92号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0024"
+  },
+  {
+    "q_type": "validity",
+    "question": "国办发〔2006〕90号（2008.03.28发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "国办发〔2006〕90号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0025"
+  },
+  {
+    "q_type": "validity",
+    "question": "国令第728号（2020.07.14发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "国令第728号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0026"
+  },
+  {
+    "q_type": "validity",
+    "question": "国办发〔2014〕39号（2014.08.14发布）的优惠措施现在还有效吗？",
+    "gold_answer": "需核验：发布已超4年，存在被新文件替代的可能，系统应触发废止链核查（人工校对：确认图谱中是否有其 SUPERSEDES 记录）",
+    "gold_policy_ids": [
+      "国办发〔2014〕39号"
+    ],
+    "difficulty": 3,
+    "item_id": "VA-0027"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财金〔2025〕11号」发布于「财政部 国家发展改革委 工业和信息化部 农业农村部 」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部 国家发展改革委 工业和信息化部 农业农村部 中国人民银行 金融监管总局",
+    "gold_policy_ids": [
+      "财金〔2025〕11号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0028"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏政发〔2026〕58号」含支持事项「苏政发〔2026〕58号#S1」，依据是什么？",
+    "gold_answer": "依据：充分发挥财政专项资金作用，采取免申即享、贷款贴息、风险补偿、项目补助等方式支持服务业扩能提质",
+    "gold_policy_ids": [
+      "苏政发〔2026〕58号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0029"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「农办机〔2020〕2号」发布于「农业农村部办公厅 财政部办公厅 商务部办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=农业农村部办公厅 财政部办公厅 商务部办公厅",
+    "gold_policy_ids": [
+      "农办机〔2020〕2号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0030"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏州市促进入境旅游若干措施#S8」适用于「资质:高级导游」，依据是什么？",
+    "gold_answer": "依据：鼓励国家高级及以上导游建立个人工作室（申报主体为导游个人而非企业，勉强映射至qualifications字段）",
+    "gold_policy_ids": [
+      "苏州市促进入境旅游若干措施#S8"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0031"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「发改办财金〔2024〕548号」发布于「国家发展改革委办公厅 金融监管总局办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国家发展改革委办公厅 金融监管总局办公厅",
+    "gold_policy_ids": [
+      "发改办财金〔2024〕548号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0032"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财政部 税务总局公告2024年第8号」发布于「财政部 税务总局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部 税务总局",
+    "gold_policy_ids": [
+      "财政部 税务总局公告2024年第8号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0033"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「POL-SZ-2026-004#S1」适用于「COND-REGION-320500」，依据是什么？",
+    "gold_answer": "依据：苏州市2026年家电以旧换新、数码和智能产品购新补贴活动",
+    "gold_policy_ids": [
+      "POL-SZ-2026-004#S1"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0034"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「POL-SZ-2026-001#S1」适用于「COND-REGION-320500」，依据是什么？",
+    "gold_answer": "依据：苏州市2026年老旧营运货车报废更新补贴首轮摇号",
+    "gold_policy_ids": [
+      "POL-SZ-2026-001#S1"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0035"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「农办计财〔2021〕8号」发布于「农业农村部办公厅 财政部办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=农业农村部办公厅 财政部办公厅",
+    "gold_policy_ids": [
+      "农办计财〔2021〕8号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0036"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财办金〔2020〕13号」发布于「财政部办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部办公厅",
+    "gold_policy_ids": [
+      "财办金〔2020〕13号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0037"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财建〔2021〕2号」发布于「财政部 工业和信息化部」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部 工业和信息化部",
+    "gold_policy_ids": [
+      "财建〔2021〕2号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0038"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「交规划发〔2026〕3号」发布于「交通运输部 国家发展改革委」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=交通运输部 国家发展改革委",
+    "gold_policy_ids": [
+      "交规划发〔2026〕3号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0039"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「发改高技〔2021〕413号」发布于「国家发展改革委 工业和信息化部 财政部 海关总署 税」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国家发展改革委 工业和信息化部 财政部 海关总署 税务总局",
+    "gold_policy_ids": [
+      "发改高技〔2021〕413号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0040"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信部联科〔2023〕64号」发布于「工业和信息化部等」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部等",
+    "gold_policy_ids": [
+      "工信部联科〔2023〕64号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0041"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「国办发〔2011〕22号」发布于「国务院办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国务院办公厅",
+    "gold_policy_ids": [
+      "国办发〔2011〕22号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0042"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「POL-TC-2026-001」含支持事项「POL-TC-2026-001#S1」，依据是什么？",
+    "gold_answer": "依据：太仓金秋购房“嘉年华”开场 “卖旧买新”单套最高补贴50万元09-192026",
+    "gold_policy_ids": [
+      "POL-TC-2026-001"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0043"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「民办发〔2021〕2号」发布于「民政部办公厅 中国残联办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=民政部办公厅 中国残联办公厅",
+    "gold_policy_ids": [
+      "民办发〔2021〕2号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0044"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财金〔2024〕60号」发布于「财政部网站」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部网站",
+    "gold_policy_ids": [
+      "财金〔2024〕60号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0045"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「交办科技函〔2022〕1793号」发布于「交通运输部办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=交通运输部办公厅",
+    "gold_policy_ids": [
+      "交办科技函〔2022〕1793号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0046"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏州市促进入境旅游若干措施」含支持事项「苏州市促进入境旅游若干措施#S6」，依据是什么？",
+    "gold_answer": "依据：三是境外市场推广扶持。支持文旅企业积极参与境外旅游展演、展览、展销等活动，提升苏州文旅国际影响力，并符合条件的，给予奖励",
+    "gold_policy_ids": [
+      "苏州市促进入境旅游若干措施"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0047"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「国办发〔2021〕43号」发布于「国务院办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国务院办公厅",
+    "gold_policy_ids": [
+      "国办发〔2021〕43号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0048"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信厅企业函〔2023〕88号」发布于「工业和信息化部办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部办公厅",
+    "gold_policy_ids": [
+      "工信厅企业函〔2023〕88号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0049"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「国办发〔2015〕68号」发布于「国务院办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国务院办公厅",
+    "gold_policy_ids": [
+      "国办发〔2015〕68号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0050"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「国办发〔2014〕39号」发布于「国务院办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国务院办公厅",
+    "gold_policy_ids": [
+      "国办发〔2014〕39号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0051"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「金办发〔2024〕122号」发布于「国家金融监督管理总局办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国家金融监督管理总局办公厅",
+    "gold_policy_ids": [
+      "金办发〔2024〕122号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0052"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏州市促进入境旅游若干措施」含支持事项「苏州市促进入境旅游若干措施#S2」，依据是什么？",
+    "gold_answer": "依据：二是地接来苏奖励。鼓励旅行社地接境外游客和在华外国人来苏过夜，按人天数给予奖励",
+    "gold_policy_ids": [
+      "苏州市促进入境旅游若干措施"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0053"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏州市国四及以下非营运中、重型柴油货车和工业领域国二」含支持事项「苏州市国四及以下非营运中、重型柴油货车和工业领域国二」，依据是什么？",
+    "gold_answer": "依据：《苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）》",
+    "gold_policy_ids": [
+      "苏州市国四及以下非营运中、重型柴油货车和工业领域国二非道路移动机械淘汰更新补贴实施方案（征求意见稿）"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0054"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「人社部发〔2025〕27号」发布于「人力资源社会保障部 工业和信息化部 商务部 全国工商」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=人力资源社会保障部 工业和信息化部 商务部 全国工商联",
+    "gold_policy_ids": [
+      "人社部发〔2025〕27号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0055"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「民发〔2025〕37号」发布于「民政部 财政部」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=民政部 财政部",
+    "gold_policy_ids": [
+      "民发〔2025〕37号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0056"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「POL-SZ-2026-004」含支持事项「POL-SZ-2026-004#S2」，依据是什么？",
+    "gold_answer": "依据：一图读懂数码焕新享政府补贴 苏州市2026年家电以旧换新、数码和智能产品购新补贴活动",
+    "gold_policy_ids": [
+      "POL-SZ-2026-004"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0057"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信部联科〔2023〕63号」发布于「工业和信息化部 发展改革委 教育部 人力资源社会保障」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部 发展改革委 教育部 人力资源社会保障部 市场监督管理总局 国家金融监督管理总局 证",
+    "gold_policy_ids": [
+      "工信部联科〔2023〕63号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0058"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「汇发〔2025〕43号」发布于「国家外汇局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国家外汇局",
+    "gold_policy_ids": [
+      "汇发〔2025〕43号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0059"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财政部 税务总局公告2023年第48号」发布于「财政部 税务总局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部 税务总局",
+    "gold_policy_ids": [
+      "财政部 税务总局公告2023年第48号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0060"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财关税〔2018〕36号」发布于「财政部 海关总署 税务总局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部 海关总署 税务总局",
+    "gold_policy_ids": [
+      "财关税〔2018〕36号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0061"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏政办发〔2026〕30号」含支持事项「苏政办发〔2026〕30号#S1」，依据是什么？",
+    "gold_answer": "依据：有条件的市县可对代送邮件快件进村的邮政、快递、交通运输企业给予奖补",
+    "gold_policy_ids": [
+      "苏政办发〔2026〕30号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0062"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏州市促进入境旅游若干措施#S7」适用于「行业:文化、体育和娱乐业」，依据是什么？",
+    "gold_answer": "依据：鼓励旅行社和在线旅游平台推出在苏州的中医养生、工业旅游、体育休闲等主题入境旅游精品线路产品",
+    "gold_policy_ids": [
+      "苏州市促进入境旅游若干措施#S7"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0063"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏州市促进入境旅游若干措施#S1」适用于「行业:文化、体育和娱乐业」，依据是什么？",
+    "gold_answer": "依据：鼓励旅行社和在线旅游平台自主外联境外游客和在华外国人来苏过夜",
+    "gold_policy_ids": [
+      "苏州市促进入境旅游若干措施#S1"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0064"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「金规〔2025〕25号」发布于「金融监管总局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=金融监管总局",
+    "gold_policy_ids": [
+      "金规〔2025〕25号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0065"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「银保监办发〔2022〕12号」发布于「银保监会办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=银保监会办公厅",
+    "gold_policy_ids": [
+      "银保监办发〔2022〕12号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0066"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「国办函〔1992〕21号」发布于「国务院办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国务院办公厅",
+    "gold_policy_ids": [
+      "国办函〔1992〕21号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0067"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「POL-SZ-2026-002」含支持事项「POL-SZ-2026-002#S1」，依据是什么？",
+    "gold_answer": "依据：苏州市正式推出2026年汽车购新补贴政策2026-03-23……苏州新一轮汽车购新补贴开启2026-09-19",
+    "gold_policy_ids": [
+      "POL-SZ-2026-002"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0068"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「苏政发〔2026〕75号」含支持事项「苏政发〔2026〕75号#S1（“双一流”建设支持计」，依据是什么？",
+    "gold_answer": "依据：在建设周期内，省财政为“双一流”建设支持计划、高水平大学建设高峰计划、拔尖特色学科建设计划、江苏特聘教授计划安排稳定支持",
+    "gold_policy_ids": [
+      "苏政发〔2026〕75号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0069"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「人社厅函〔2025〕25号」发布于「人力资源社会保障部办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=人力资源社会保障部办公厅",
+    "gold_policy_ids": [
+      "人社厅函〔2025〕25号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0070"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信部企业〔2024〕168号」发布于「工业和信息化部」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部",
+    "gold_policy_ids": [
+      "工信部企业〔2024〕168号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0071"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财政部 税务总局公告2023年第35号」发布于「财政部 税务总局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部 税务总局",
+    "gold_policy_ids": [
+      "财政部 税务总局公告2023年第35号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0072"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信厅联企业〔2024〕16号」发布于「工业和信息化部办公厅等」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部办公厅等",
+    "gold_policy_ids": [
+      "工信厅联企业〔2024〕16号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0073"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「发改环资〔2022〕1885号」发布于「发展改革委 科技部」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=发展改革委 科技部",
+    "gold_policy_ids": [
+      "发改环资〔2022〕1885号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0074"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信厅联企业函〔2024〕460号」发布于「工业和信息化部办公厅 财政部办公厅 中国人民银行办公」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部办公厅 财政部办公厅 中国人民银行办公厅 金融监管总局办公厅 中国证监会办公厅",
+    "gold_policy_ids": [
+      "工信厅联企业函〔2024〕460号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0075"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「交运发〔2026〕4号」发布于「交通运输部 工业和信息化部 商务部 国务院国资委 金」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=交通运输部 工业和信息化部 商务部 国务院国资委 金融监管总局 国家铁路局 中国民航局 国家邮政局",
+    "gold_policy_ids": [
+      "交运发〔2026〕4号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0076"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「财建〔2020〕93号」发布于「财政部 民航局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=财政部 民航局",
+    "gold_policy_ids": [
+      "财建〔2020〕93号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0077"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信厅联企业函〔2025〕50号」发布于「工业和信息化部办公厅等」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部办公厅等",
+    "gold_policy_ids": [
+      "工信厅联企业函〔2025〕50号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0078"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「国资厅发改革〔2023〕4号」发布于「国资委办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国资委办公厅",
+    "gold_policy_ids": [
+      "国资厅发改革〔2023〕4号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0079"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「国办函〔2003〕77号」发布于「国务院办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国务院办公厅",
+    "gold_policy_ids": [
+      "国办函〔2003〕77号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0080"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「建标〔2024〕14号」发布于「住房城乡建设部」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=住房城乡建设部",
+    "gold_policy_ids": [
+      "建标〔2024〕14号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0081"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「POL-XC-2026-001#S1」适用于「COND-REGION-320507」，依据是什么？",
+    "gold_answer": "依据：2026相城新一轮家电家具促消费活动开始申领",
+    "gold_policy_ids": [
+      "POL-XC-2026-001#S1"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0082"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「2022年第17号」发布于「税务总局 财政部」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=税务总局 财政部",
+    "gold_policy_ids": [
+      "2022年第17号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0083"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「P_SZ_2025REV」含支持事项「P_SZ_2025REV#S2」，依据是什么？",
+    "gold_answer": "依据：根据国家、省文件，修订了生育津贴、产前检查等待遇的支付标准及支付对象，增加了直接支付给个人的表述。",
+    "gold_policy_ids": [
+      "P_SZ_2025REV"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0084"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「金规〔2025〕10号」发布于「国家金融监督管理总局」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=国家金融监督管理总局",
+    "gold_policy_ids": [
+      "金规〔2025〕10号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0085"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「自然资规〔2024〕1号」发布于「自然资源部 生态环境部 财政部 市场监管总局 金融监」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=自然资源部 生态环境部 财政部 市场监管总局 金融监管总局 中国证监会 国家林草局",
+    "gold_policy_ids": [
+      "自然资规〔2024〕1号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0086"
+  },
+  {
+    "q_type": "traceable",
+    "question": "「工信厅企业函〔2024〕221号」发布于「工业和信息化部办公厅」，依据是什么？",
+    "gold_answer": "依据：接口元数据：发布机关=工业和信息化部办公厅",
+    "gold_policy_ids": [
+      "工信厅企业函〔2024〕221号"
+    ],
+    "difficulty": 1,
+    "item_id": "TR-0087"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "item_id": "MH-0001",
+    "q_type": "multi_hop",
+    "question": "我们是一家成立2年的小型软件企业（I65，南山区），能申请哪些市级资金类支持事项？",
+    "gold_answer": "示例：研发费用补贴（深府规〔2024〕3号#S1）等",
+    "gold_policy_ids": ["深府规〔2024〕3号"],
+    "difficulty": 2
+  },
+  {
+    "item_id": "VA-0001",
+    "q_type": "validity",
+    "question": "深府规〔2022〕15号规定的初创企业租房补贴现在还能申请吗？",
+    "gold_answer": "不能，已被 深府规〔2024〕3号 废止（示例）",
+    "gold_policy_ids": ["深府规〔2022〕15号", "深府规〔2024〕3号"],
+    "difficulty": 2
+  },
+  {
+    "item_id": "CF-0001",
+    "q_type": "conflict",
+    "question": "我们已享受南山区级的同类研发补贴，还能再申请市级的研发补贴吗？",
+    "gold_answer": "不能重复申领，两者互斥，就高享受（示例）",
+    "gold_policy_ids": ["深府规〔2024〕3号"],
+    "difficulty": 3
+  },
+  {
+    "item_id": "TR-0001",
+    "q_type": "traceable",
+    "question": "专精特新中小企业认定通过后有什么奖励？请给出政策依据。",
+    "gold_answer": "示例：给予X万元奖励，依据 深府规〔2024〕3号 第X条",
+    "gold_policy_ids": ["深府规〔2024〕3号"],
+    "difficulty": 1
+  }
+]

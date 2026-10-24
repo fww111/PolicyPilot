@@ -1,0 +1,118 @@
+{
+  "pure_rag": {
+    "f1": [
+      0.0,
+      0.0
+    ],
+    "cite": [
+      false,
+      false
+    ],
+    "refused": 2,
+    "detail": [
+      {
+        "item": "MU-0001",
+        "f1": 0.0,
+        "refused": true,
+        "verdict": "",
+        "n_pred": 0,
+        "n_gold": 3
+      },
+      {
+        "item": "MU-0002",
+        "f1": 0.0,
+        "refused": true,
+        "verdict": "",
+        "n_pred": 0,
+        "n_gold": 2
+      }
+    ]
+  },
+  "pure_graph": {
+    "f1": [
+      1.0,
+      1.0
+    ],
+    "cite": [
+      false,
+      false
+    ],
+    "refused": 0,
+    "detail": [
+      {
+        "item": "MU-0001",
+        "f1": 1.0,
+        "refused": false,
+        "verdict": "",
+        "n_pred": 3,
+        "n_gold": 3
+      },
+      {
+        "item": "MU-0002",
+        "f1": 1.0,
+        "refused": false,
+        "verdict": "",
+        "n_pred": 2,
+        "n_gold": 2
+      }
+    ]
+  },
+  "naive_dual": {
+    "f1": [
+      1.0,
+      1.0
+    ],
+    "cite": [
+      false,
+      false
+    ],
+    "refused": 0,
+    "detail": [
+      {
+        "item": "MU-0001",
+        "f1": 1.0,
+        "refused": false,
+        "verdict": "graph=3 rag=0 直接拼接",
+        "n_pred": 3,
+        "n_gold": 3
+      },
+      {
+        "item": "MU-0002",
+        "f1": 1.0,
+        "refused": false,
+        "verdict": "graph=2 rag=0 直接拼接",
+        "n_pred": 2,
+        "n_gold": 2
+      }
+    ]
+  },
+  "cross_validated": {
+    "f1": [
+      0.0,
+      0.0
+    ],
+    "cite": [
+      false,
+      false
+    ],
+    "refused": 2,
+    "detail": [
+      {
+        "item": "MU-0001",
+        "f1": 0.0,
+        "refused": true,
+        "verdict": "仲裁后仍拒答：{'reason': '仲裁重查后",
+        "n_pred": 0,
+        "n_gold": 3
+      },
+      {
+        "item": "MU-0002",
+        "f1": 0.0,
+        "refused": true,
+        "verdict": "仲裁后仍拒答：{'reason': '仲裁重查后",
+        "n_pred": 0,
+        "n_gold": 2
+      }
+    ]
+  }
+}
