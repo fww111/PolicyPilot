@@ -3,6 +3,25 @@
 本目录是华为 ICT 大赛创新赛题三的参赛实现，总蓝图与验收标准见
 [`docs/master-plan.md`](docs/master-plan.md)（下称"计划"，原文件位于 nexent 仓库 `doc/` 目录）。
 
+## 赛题
+
+**华为 ICT 大赛创新赛创新赛题三：「基于华为 ModelEngine Nexent 打造可进化决策智能体」**
+
+以下要求矩阵归纳自计划文档第 1 节（原文以用户提供的任务正文为依据）：
+
+| 赛题要求 | 验收证据 |
+|---|---|
+| 文本、表格、图文统一识别、理解与资产标识 | 同一业务实体跨文件关联；每个事实返回原文/单元格/图像区域（资产登记表、定位正确率） |
+| 低资源本体半自动构建与持续动态更新、标准对齐 | 标注预算曲线、专家工时；标准条款变更定位受影响本体/事实/规则/历史决策并局部修复 |
+| 深度集成 Nexent MCP 与 Skills | 实际运行 trace、MCP 工具结果、Skill 内容摘要与版本绑定 |
+| 检索—推理双驱动 | 检索计划、查询、证据缺口、补检索与终止记录 |
+| 跨文档多跳推理与决策溯源 | 多跳联合正确率、证据完整性、撤证测试、冲突测试 |
+| 可复用且快速部署的 Skill 模板 | 干净环境部署、第二场景验证、修改范围统计 |
+| Nexent 平台可运行 | 安装清单、执行日志、端到端验收 |
+| 入围后开源至 GitCode/GitHub | 版本化 release、NOTICE、数据许可、结果复现 |
+
+官方入口：[华为 ICT 大赛创新赛页面](https://e.huawei.com/cn/talent/#/ict/innovation-details?zoneCode=027425&zoneId=98269700&compId=85132021)
+
 ## 与计划文档的映射
 
 | 计划阶段 | 内容 | 状态 |
@@ -105,11 +124,33 @@ competition/
 cd competition
 uv sync                 # 创建虚拟环境并安装依赖
 uv sync --extra mcp     # 可选：安装 FastMCP 以运行 MCP server 桥
-uv run pytest           # 运行单元测试
-uv run python src/competition/mcp/server.py   # 启动 MCP stdio server
+uv run pytest           # 运行单元测试（112 个）
 ```
 
-## 证据边界
+领域 MCP server（接入 Nexent 平台用，见 `docs/platform-integration.md`）：
 
-- 契约模型与单元测试已落地并通过；这证明数据对象定义自洽，不证明业务闭环可运行。
-- G0 的 B0 基线（原始 Nexent 运行证据）尚未建立，见 upstream-lock.md 的行动项。
+```bash
+# stdio（本地）：uv run python src/competition/mcp/server.py
+# http（容器侧 Nexent 经 host.docker.internal 访问）：
+uv run python src/competition/mcp/server.py --transport http --host 0.0.0.0 --port 8765
+```
+
+Nexent 侧注册：`POST /api/mcp/add`（server_url=`http://host.docker.internal:8765/mcp`）→
+`GET /api/tool/scan_tool` 工具入库 → 创建 Agent 绑定工具。平台已验证双场景执行（证据在 `docs/evidence/`）。
+
+## 证据边界与完成度（对照计划第 17 节验收清单）
+
+**机制与骨架（约 90%）**：数据契约、离线闭环、受限计划与补证、本体流水线、影响分析与发布门槛、
+Skill 包与受控演化、MCP 工具层、**真实 Nexent 平台接入与双场景执行（B0 证据）**、第二模板迁移、
+upstream 基线对齐（5336b771）——112 个测试全部通过。
+
+**证据与论证（约 20%，未完成项如实列出）**：
+
+- 30–50 试标案例库与双人标注（N01/N02）、真实授权业务数据接入——当前全部为合成样例
+- 多模态真实解析（Docling/PaddleOCR 对比、PDF/OCR、图像区域锚点，N05）
+- 强基线评测 B1–B5（长上下文 LLM、调优 RAG、KAG、RAG-Anything）与 13 章指标体系（N11）
+- H1–H3 的正式消融与专家工时实验（13.6）；H3 与 GEPA/ACE/MCE 对照
+- Skill 包在平台的"被选择加载"链路（当前平台 Agent 走 MCP 工具；Skill 包仅过真实 SkillLoader 解析验证）
+- 15.1 故障注入（超时重试、并发修改、进程恢复、缓存失效）与开源复现包（N20）
+
+所有"优于/降低/提升"类主张在取得对比实验数据前一律不作表述（计划 18.2 精神）。
