@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["publication", "impact", "status_changes"],
+  "properties": {
+    "publication": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["published", "rolled_back"]},
+        "reason": {"type": "string"},
+        "regression_result": {"enum": ["pending", "passed", "failed"]}
+      }
+    },
+    "impact": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["decision_id", "verdict"],
+        "properties": {
+          "decision_id": {"type": "string"},
+          "verdict": {"enum": ["needs_review", "applicable_unchanged", "scope_uncertain"]},
+          "path": {"type": "string"},
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "status_changes": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
+    }
+  }
+}

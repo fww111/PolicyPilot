@@ -1,0 +1,24 @@
+{
+  "skill_name": "cross-document-check",
+  "version": "0.1.0",
+  "nexent_tested_version": "develop@9ee52bc",
+  "tool_contract_version": "tc@1",
+  "ontology_scope": ["ONT-G1-SEED"],
+  "standard_version_policy": {"SPEC-D": "pinned:v1,v2"},
+  "input_type": "input.json",
+  "output_type": "output.json",
+  "limits": {"max_loops": 4, "max_tool_calls": 16, "timeout_seconds": 60},
+  "accessible_resources": [
+    "assets:read",
+    "evidence:read",
+    "ontology:read",
+    "decisions:write_candidate"
+  ],
+  "side_effect_level": "writes_candidate",
+  "idempotency_policy": "same input and evidence window produce the same decision pack",
+  "failure_modes": ["unknown_missing_evidence", "conflict_needs_review", "no_applicable_standard"],
+  "approval_condition": "candidate decisions are published only after human review; read paths are automatic",
+  "acceptance_set": ["case-01.json", "case-02.json"],
+  "rollback": "stateless evaluation; rollback = drop the candidate decision record",
+  "entry_script": "scripts/run_check.py"
+}

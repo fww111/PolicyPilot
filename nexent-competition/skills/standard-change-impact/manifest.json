@@ -1,0 +1,24 @@
+{
+  "skill_name": "standard-change-impact",
+  "version": "0.1.0",
+  "nexent_tested_version": "develop@9ee52bc",
+  "tool_contract_version": "tc@1",
+  "ontology_scope": ["ONT-G1-SEED"],
+  "standard_version_policy": {"SPEC-D": "pinned:v1,v2"},
+  "input_type": "input.json",
+  "output_type": "output.json",
+  "limits": {"max_loops": 2, "max_tool_calls": 24, "timeout_seconds": 120},
+  "accessible_resources": [
+    "assets:read",
+    "evidence:read",
+    "decisions:read",
+    "changesets:write_candidate"
+  ],
+  "side_effect_level": "writes_candidate",
+  "idempotency_policy": "re-running on the same log and versions yields the same impact report and no duplicate ChangeSets",
+  "failure_modes": ["impact_leak_detected", "missing_anchor", "local_full_mismatch"],
+  "approval_condition": "ChangeSet candidate requires human approval; rollback keeps prior decision log verbatim",
+  "acceptance_set": ["case-01.json"],
+  "rollback": "drop the ChangeSet candidate and keep the previous decision log untouched",
+  "entry_script": "scripts/run_impact.py"
+}

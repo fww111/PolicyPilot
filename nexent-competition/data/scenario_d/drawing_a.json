@@ -1,0 +1,8 @@
+{
+  "document_type": "drawing",
+  "part_no": "P-100",
+  "part_name": "precision shim",
+  "features": [
+    {"feature_id": "F-1", "name": "flatness", "drawing_ref": "SHEET2/B4"}
+  ]
+}

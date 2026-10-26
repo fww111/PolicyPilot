@@ -1,0 +1,13 @@
+{
+  "scenario": "plan-3.3-optimization-set",
+  "synthetic": true,
+  "split": "optimization",
+  "note": "Optimization/dev split of the plan 3.3 sample. Adds a measurement recorded in the 'micron' unit spelling to drive skill evolution. Locked tests stay in scenario_d.",
+  "files": [
+    {"file": "drawing_a.json", "asset_id": "AST-DRAWING-A", "category": "drawing", "parser": "synthetic-json@1"},
+    {"file": "inspection_b.csv", "asset_id": "AST-INSPECTION-B", "category": "inspection_record", "parser": "synthetic-csv@1"},
+    {"file": "calibration_c.json", "asset_id": "AST-CALIBRATION-C", "category": "calibration", "parser": "synthetic-json@1"},
+    {"file": "standard_d_v1.json", "asset_id": "AST-STANDARD-D-V1", "category": "standard", "parser": "synthetic-json@1"},
+    {"file": "standard_d_v2.json", "asset_id": "AST-STANDARD-D-V2", "category": "standard", "parser": "synthetic-json@1"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "document_type": "calibration_list",
+  "certificate_set": "org-b-2026",
+  "certificates": [
+    {"instrument_id": "INS-31", "certificate_no": "GCAL-31-2026", "valid_from": "2026-01-01", "valid_to": "2026-12-31"},
+    {"instrument_id": "INS-32", "certificate_no": "GCAL-32-2026", "valid_from": "2026-01-01", "valid_to": "2026-09-30"}
+  ]
+}

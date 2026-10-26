@@ -1,0 +1,14 @@
+# Business terminology and standard applicability for cross-document-check.
+# Domain config is data, never code; switching product families swaps this file.
+units:
+  canonical: mm
+  aliases:
+    um: [um, μm, micron]
+    mm: [mm, millimeter]
+standard_applicability:
+  SPEC-D:
+    default_scope: all_orders
+    effective_date_driven: true
+batch_key: batch_no
+part_key: part_no
+instrument_key: instrument_id

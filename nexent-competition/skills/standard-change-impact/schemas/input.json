@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["old_version", "new_version"],
+  "properties": {
+    "old_version": {"type": "string"},
+    "new_version": {"type": "string"},
+    "standard_id": {"type": "string", "default": "SPEC-D"}
+  },
+  "additionalProperties": false
+}
