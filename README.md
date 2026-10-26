@@ -1,46 +1,92 @@
-# 基于 Nexent 的领域资产认知与决策系统
+# Nexent 领域资产认知与决策系统
 
-华为 ICT 大赛创新赛题三参赛实现：**「标准驱动、证据约束、可持续更新的领域资产决策系统」**——
-以制造业质量证据审核为业务链，把多模态理解、低资源本体、标准版本约束、跨文档推理与 Skills
-复用串成一条可验证的闭环。总蓝图与验收标准见 [`docs/master-plan.md`](docs/master-plan.md)
-（下称"计划"，原文件位于 nexent 仓库 `doc/` 目录）。
+面向**制造业质量证据审核**的领域智能体系统：把产品图纸、检验表、校准证书、标准条款等跨文档资料统一为可追溯的资产与证据，对质量决策输出**四态结论**（合格 / 不合格 / 证据不足 / 证据冲突），并在标准版本更替后自动定位需重审的历史结论、局部重算、受控发布。
+
+系统作为领域 MCP 服务与 Skill 包接入 **Nexent** 平台运行：Agent 负责对话与编排，本系统负责证据、规则与裁决——**确定性程序做判定，大模型只做解释与候选**。
 
 ## 赛题
 
 **华为 ICT 大赛创新赛创新赛题三：「基于华为 ModelEngine Nexent 打造可进化决策智能体」**
 
-要求矩阵归纳自计划文档第 1 节（原文以用户提供的任务正文为依据）：
+要求矩阵归纳自赛题任务正文（详见 [docs/master-plan.md](docs/master-plan.md) 第 1 节）：
 
-| 赛题要求 | 验收证据 |
+| 赛题要求 | 本系统对应 |
 |---|---|
-| 文本、表格、图文统一识别、理解与资产标识 | 同一业务实体跨文件关联；每个事实返回原文/单元格/图像区域（资产登记表、定位正确率） |
-| 低资源本体半自动构建与持续动态更新、标准对齐 | 标注预算曲线、专家工时；标准条款变更定位受影响本体/事实/规则/历史决策并局部修复 |
-| 深度集成 Nexent MCP 与 Skills | 实际运行 trace、MCP 工具结果、Skill 内容摘要与版本绑定 |
-| 检索—推理双驱动 | 检索计划、查询、证据缺口、补检索与终止记录 |
-| 跨文档多跳推理与决策溯源 | 多跳联合正确率、证据完整性、撤证测试、冲突测试 |
-| 可复用且快速部署的 Skill 模板 | 干净环境部署、第二场景验证、修改范围统计 |
-| Nexent 平台可运行 | 安装清单、执行日志、端到端验收 |
-| 入围后开源至 GitCode/GitHub | 版本化 release、NOTICE、数据许可、结果复现 |
+| 文本、表格、图文统一识别与资产标识 | 资产/修订/实体/事实四级身份分离，每个事实带原文锚点（单元格/条款/字符区间） |
+| 低资源本体半自动构建与动态更新、标准对齐 | 种子本体 + 候选抽取 + 约束校验 + 审核队列的流水线；标准版本驱动影响分析 |
+| 深度集成 Nexent MCP 与 Skills | 7 个领域 MCP 工具 + 2 个 Nexent 原生 Skill 包，已在运行中的 Nexent 验证 |
+| 检索—推理双驱动 | 受限计划执行 + 证据缺口驱动的类型化补检索任务 |
+| 跨文档多跳推理与决策溯源 | 决策证据包：结论、锚点、规则、版本集合全留痕，可回放重算 |
+| 可复用 Skill 模板 | 领域配置（列映射/单位/标准适用）与核心流程分离，第二组织模板零代码迁移 |
+| Nexent 平台可运行 | 已接入本地部署的 Nexent 并完成真实对话执行验证 |
 
 官方入口：[华为 ICT 大赛创新赛页面](https://e.huawei.com/cn/talent/#/ict/innovation-details?zoneCode=027425&zoneId=98269700&compId=85132021)
+
+## 系统能做什么
+
+**1. 跨文档质量证据审核（T1）**
+对某批次回答"当前证据支持什么处置"：关联图纸特征 → 检验测量值 → 仪器校准状态 → 适用标准条款，输出四态结论与逐条锚点。关键的保守语义：
+
+- 测量发生在校准有效期外 → **unknown**（检验有效性待复核），数值落在容差内也不判合格
+- 单位混用（μm/mm）由确定性换算表处理，不可换算 → unknown
+- 同批次出现两条可信但相反的测量 → **conflict**，不强行二选一
+- 证书撤销或权限收回 → 已有结论降级 unknown，被撤证据绝不留在证据包里
+
+**2. 标准变更影响分析（T2）**
+标准发布新版本时：逐条款 diff（新增/替代/废止/缩范围/仅排版）→ 双路径影响闭包（依赖传播 + 新适用谓词扫描，后者能命中从未引用旧规则的对象）→ 只重算受影响的决策、其余逐字保留 → 三重发布门槛（新条款证据可用、局部重算与全量重算等价、影响漏检检测）不过则整体回滚。重新上传旧版标准文件不会"复活"已废止规则。
+
+**3. 证据缺口补证闭环**
+结论为 unknown 时自动生成类型化补检索任务（缺什么类型的资产、覆盖哪个对象、什么时间窗、用途是什么），补入证据后重跑计划即得确定结论——已在样例中验证 unknown → refuted 的完整闭环。
+
+**4. 领域 MCP 工具服务**
+三个服务边界、7 个工具：资产与证据（`search_assets`/`get_evidence`/`resolve_entity`/`read_table_region`）、本体与标准（`analyze_change_impact`）、决策与验证（`execute_plan`/`replay_decision`）。身份与可见范围由服务端注入——工具参数携带 `tenant`/`labels` 直接被拒；受限证据返回与"不存在"不可区分的 `not_found`，不泄漏存在性；每次调用留痕（run_id/耗时/证据引用）。
+
+**5. Nexent 原生 Skill 包**
+`cross-document-check`（T1 审核）与 `standard-change-impact`（T2 影响分析）：SKILL.md 兼容 Nexent SkillLoader（已用真实加载器验证），版本/权限/副作用契约放独立 manifest.json 并由验证器强制执行（未注册工具/本体/标准版本、越权副作用均拦截）。领域配置（列映射、单位别名、标准适用）在 `config/domain.yaml`，换组织模板不改核心代码。
+
+**6. 受控自进化**
+运行失败 → 责任层定位（数据问题路由补检索，不掩盖成 Skill 问题）→ 受限候选补丁（白名单 4 类；权限/验收集/判定语义永不可自动改）→ 隔离验证双门槛（目标案例必须修复 + 基线案例零回归）→ 通过才发布新版本，失败保留旧版。答案走私、锁定测试来源、错误换算因子三类坏补丁均有拦截测试。
+
+## 工作原理
+
+```mermaid
+flowchart TD
+    A[原始资料：图纸/检验表/校准证书/标准条款] -->|入库| B[资产+修订+证据锚点]
+    B --> C[精确业务键实体链接]
+    C --> D[受限计划：6 个注册操作，先校验后执行]
+    D --> E[三值规则求值：缺失输入=unknown 而非 false]
+    E --> F{证据是否充分且一致}
+    F -->|缺失| G[类型化补检索任务 → 补证后重跑]
+    F -->|冲突| H[conflict → 人工复核]
+    F -->|通过| I[四态决策证据包：结论+锚点+规则+版本集合]
+    J[标准新版本] -->|条款 diff| K[影响闭包：依赖传播+谓词扫描]
+    K -->|局部重算+发布门槛| I
+    I -->|失败轨迹| L[受控自进化：诊断→补丁→双门槛→发布]
+```
+
+核心设计原则：
+
+- **检索未找到 ≠ 命题为假**；只有明确采用闭世界假设的规则才允许把缺失判为否
+- **放行需全部证据可信且合格，拦截只需一条可信超差**——不对称聚合，宁可复核不可放行
+- **先验证后切换**：知识发布（本体/标准/Skill）必须过回归门槛，失败保留旧版本
+- **版本集合入包**：每个决策记录当时依据的本体/规则/标准/资产修订，支持"当时已知"与"按当前知识重算"两种视图
 
 ## 项目结构
 
 ```text
-competition/
-  src/competition/
-    contracts/        # 12 类领域数据契约（计划 5.2：Asset/EvidenceAnchor/DecisionRecord/ChangeSet...）
-    pipeline/         # G1 闭环：入库锚点、精确键实体链接、三值规则求值、T1 四态决策包
-    planning/         # G2：受限计划（6 注册操作）、执行留痕、证据缺口驱动补证
-    ontology/         # G2：种子本体、候选抽取、约束校验、可执行能力问题、审核队列、发布门槛
-    evolution/        # G3：条款 diff、双路径影响闭包、局部重算对照全量、发布门槛与回滚
-    skills/           # G4：Skill manifest 契约、包加载器、验证适配器（负例覆盖）
-    adaptation/       # G4：失败诊断定责、受限补丁审计、隔离验证双门槛、发布/回退
-    mcp/              # 领域 MCP 工具层：三服务边界 7 工具、服务端身份注入、FastMCP 桥
-  skills/             # 两个 Nexent 原生 Skill 包（cross-document-check / standard-change-impact）
-  data/               # 合成样例：scenario_d（锁定集）/ scenario_d_opt（优化集）/ scenario_e（迁移集）
-  tests/              # 112 个测试（契约 25 / 端到端 11 / 计划 9 / 演化 9 / 本体 13 / 适应 10 / MCP 13 / 技能 / 迁移 7）
-  docs/               # 总蓝图、G0 基线文档、迁移报告、平台接入证据、运行流归档
+src/competition/
+  contracts/    # 12 类领域数据契约：资产/修订/锚点/实体/事实/本体/条款/对齐/规则/决策/变更集/Skill发布
+  pipeline/     # 入库锚点、实体链接、三值规则求值、T1 决策包组装
+  planning/     # 受限计划（注册操作+静态校验+执行留痕）、证据缺口补检索
+  ontology/     # 种子本体、候选抽取、约束校验、可执行能力问题、审核队列、发布门槛
+  evolution/    # 条款 diff、双路径影响闭包、局部重算对照全量、发布门槛与回滚
+  skills/       # Skill manifest 契约、包加载器、验证适配器
+  adaptation/   # 失败诊断定责、受限补丁审计、隔离验证双门槛、发布/回退
+  mcp/          # 领域 MCP 工具层：注册表、权限模型、FastMCP 桥
+skills/         # 两个 Nexent 原生 Skill 包（SKILL.md + manifest + schemas + evals + scripts）
+data/           # 合成验收样例：组织 A（含标准两版本）/ 优化集 / 组织 B 模板
+tests/          # 112 个测试：契约 / 端到端 / 计划 / 演化 / 本体 / 适应 / MCP / 技能 / 迁移
+docs/           # 设计文档、任务规范、基线记录、迁移报告、平台接入证据、对话流归档
 ```
 
 ## 快速开始
@@ -52,7 +98,7 @@ uv sync --extra mcp     # 可选：安装 FastMCP（MCP server 桥）
 uv run pytest           # 运行全部 112 个测试
 ```
 
-**T1 跨文档审核演示**（合成样例：图纸 A + 检验表 B + 校准 C + 规范 D）：
+**T1 审核演示**（合成样例：图纸 A + 检验表 B + 校准 C + 规范 D 两版本）：
 
 ```bash
 echo '{"batch_no": "L-2026-10"}' > /tmp/job.json
@@ -60,22 +106,20 @@ uv run python skills/cross-document-check/scripts/run_check.py \
     --input /tmp/job.json --scenario data/scenario_d
 # -> status: "supported"（0.0048mm ≤ 0.005mm，量具校准有效，三源证据锚点齐全）
 
-echo '{"batch_no": "L-2026-11"}' > /tmp/job.json   # 换成校准过期的批次
+echo '{"batch_no": "L-2026-11"}' > /tmp/job.json   # 校准过期的批次
 # -> status: "unknown" + missing_items: ["re-inspection: ..."]（数值不作裁决依据）
 ```
 
-**T2 标准变更影响演示**（D-v1 → D-v2 缩紧容差、限定生效日期后订单）：
+**T2 影响分析演示**（D-v2 缩紧容差、仅对生效日后订单适用）：
 
 ```bash
 echo '{"standard_id": "SPEC-D", "old_version": "v1", "new_version": "v2"}' > /tmp/job.json
 uv run python skills/standard-change-impact/scripts/run_impact.py \
     --input /tmp/job.json --scenario data/scenario_d
-# -> L-2026-13/14 needs_review（重算后 refuted/conflict），9 月批次保持原判
+# -> 11 月订单批次 needs_review（重算后 refuted/conflict），9 月批次保持原判
 ```
 
-## Nexent 平台接入（已验证）
-
-领域 MCP server 接入运行中的 Nexent（全链路见 `docs/platform-integration.md`）：
+## 接入 Nexent 平台
 
 ```bash
 # http transport：容器侧 Nexent 经 host.docker.internal 访问
@@ -83,54 +127,33 @@ uv run python src/competition/mcp/server.py --transport http --host 0.0.0.0 --po
 ```
 
 Nexent 侧注册：`POST /api/mcp/add`（server_url=`http://host.docker.internal:8765/mcp`）→
-`GET /api/tool/scan_tool` 工具入库 → 创建 Agent 绑定 7 个工具。平台已验证双场景执行：
-L-2026-10 → supported（Agent 自主调用 execute_plan/get_evidence/replay_decision，回答含三源锚点证据表）；
-L-2026-11 → unknown（校准过期正确降级）。对话流证据归档于 `docs/evidence/`。
+`GET /api/tool/scan_tool` 工具入库 → 创建 Agent 绑定 7 个工具。
 
-## 与计划文档的映射
+已在本地部署的 Nexent（upstream 基线 `5336b771`）完成真实对话验证：Agent 自主调用
+`execute_plan`/`get_evidence`/`replay_decision`，对合格批次返回 supported 并给出三源锚点证据表，
+对校准过期批次返回 unknown 并逐字引用缺失项。对话流原始归档见 `docs/evidence/`，
+接入全程与修复记录见 [docs/platform-integration.md](docs/platform-integration.md)。
 
-| 计划阶段 | 内容 | 状态 |
-|---|---|---|
-| G0 任务与证据基线 | 任务规范、数据盘点、upstream 锁定、数据契约 | **完成**（基线已对齐 5336b77；试标案例待双人标注） |
-| G1 最小完整闭环 | 多模态导入 → 决策证据包（真实 Nexent 执行） | **完成**（离线闭环 + 平台真实执行验证） |
-| G2 本体与双驱动 | 低资源本体构建、标准映射、受限计划、补证 | **完成**（标准映射的候选映射层待标准概念库） |
-| G3 动态更新 | 版本、影响分析、局部重算、回滚 | **核心完成**（时间视图/diff/影响闭包/发布门槛/回滚已验证） |
-| G4 Skill 演化与迁移 | 受限优化、发布门槛、第二模板迁移 | **完成**（演化闭环 + 组织 B 第二模板迁移，见 `docs/migration-report.md`） |
-| G5 开放复现 | 公开源码/样例/评测，独立环境复现 | 部分（样例与评测可复现；公开 release 待团队决策） |
+## 当前状态与边界
 
-各阶段产出物明细：
+**已完成并验证**：上表全部能力均有实现与测试（112 个测试全绿）；平台级双场景执行通过；
+第二组织模板（自有表头拼写/标准号/编号风格）零代码迁移，核心源码不含对方言字面量（硬断言）。
 
-- **G0**：`docs/g0-baseline/`（upstream-lock 任务规范 / 数据盘点模板）+ `src/competition/contracts/`（12 类契约：业务身份与文件名分离、锚点不可变、同名实体禁自动合并、四态结论强制证据、Skill 发布不可原地改写）
-- **G1**：`data/scenario_d/`（计划 3.3 节贯穿样例）+ `pipeline/`。已验证降级路径：校准过期→unknown（数值不作裁决依据）、单位混用→确定性换算、新标准版本→结论随适用谓词改变、冲突测量→conflict、撤证→unknown 且撤销锚点不泄漏进证据包
-- **G2**：`planning/`（受限计划：6 注册操作，静态校验拒绝未注册操作/缺参/前向依赖；非法计划零步执行）+ 补证闭环（unknown→类型化补检索任务→补入证书→重算 refuted）+ `ontology/`（种子 9 类 6 关系 2 互斥；从数据发现缺失概念；CQ 用决策流水线同源代码执行；发布门槛：候选状态全明确且 CQ 全过才 published）
-- **G3**：`evolution/`。条款 diff 六类变更；影响闭包双路径（依赖传播 + 新适用谓词扫描，未知范围保守扩大）；局部重算对照全量重算；发布门槛三重检查（锚点可用/局部=全量/**影响漏检检测**）+ 回滚；旧文件重入不复活已废止规则
-- **G4**：`skills/` 两个 Nexent 原生包（SKILL.md 仅用 5 个允许键，**已用真实 SkillLoader 解析验证**；manifest 副作用分级：`writes_published` 被模型层禁止）+ `adaptation/`（诊断先定责：数据问题不产生 Skill 补丁；补丁白名单 4 类 + 反答案走私/锁定测试源审计；隔离验证双门槛：目标修复 + 基线零回归；坏补丁拦截已验证）
-- **MCP 工具层**：`mcp/` 三服务边界 7 工具（资产与证据 / 本体与标准 / 决策与验证）。身份服务端注入，参数携带 tenant/labels 直接拒绝；受限证据返回与不存在不可区分的 `not_found`；受限校准在决策中等同撤证→unknown
-- **N18 迁移**：`data/scenario_e/` 组织 B 模板（自有表头拼写/标准号/编号风格）+ manifest 列映射配置化；核心源码不含模板 B 任何字面量（硬断言）；Skill 入口脚本换数据目录即可运行
+**如实声明的边界**：
 
-## 完成度（对照计划第 17 节验收清单）
-
-**机制与骨架（约 90%）**：上表全部 + upstream 基线对齐（5336b771）+ 112 测试全绿。
-
-**证据与论证（约 20%，未完成项如实列出）**：
-
-- 30–50 试标案例库与双人标注（N01/N02）、真实授权业务数据接入——当前全部为合成样例
-- 多模态真实解析（Docling/PaddleOCR 对比、PDF/OCR、图像区域锚点，N05）
-- 强基线评测 B1–B5（长上下文 LLM、调优 RAG、KAG、RAG-Anything）与 13 章指标体系（N11）
-- H1–H3 的正式消融与专家工时实验（13.6）；H3 与 GEPA/ACE/MCE 对照
-- Skill 包在平台的"被选择加载"链路（当前平台 Agent 走 MCP 工具；Skill 包仅过真实 SkillLoader 解析验证）
-- 15.1 故障注入（超时重试、并发修改、进程恢复、缓存失效）与开源复现包（N20）
-
-所有"优于/降低/提升"类主张在取得对比实验数据前一律不作表述（计划 18.2 精神）。
+- 验收样例为**合成数据**（明确标注 `synthetic: true`）——机制有效性已验证，真实企业资料接入与试标案例库（双人标注）尚未进行
+- 多模态解析目前覆盖 JSON/CSV 结构化源；PDF/OCR/图像区域解析与解析器对比（Docling/PaddleOCR）未实现
+- 与强基线（长上下文 LLM、调优 RAG、KAG、RAG-Anything）的对比评测未开展——在取得对比数据前，本 README 不作任何"优于 X"的表述
+- Skill 包已通过 Nexent 真实 SkillLoader 解析验证，但平台 Agent 当前经 MCP 工具执行业务；Skill 包的平台装载链路待验证
 
 ## 文档索引
 
 | 文档 | 内容 |
 |---|---|
-| [docs/master-plan.md](docs/master-plan.md) | 总蓝图：技术评审 + G0–G5 路线 + N01–N22 任务 + H1–H3 假设 + 实验协议 |
+| [docs/master-plan.md](docs/master-plan.md) | 设计总蓝图：技术评审、分阶段路线、研究假设与实验协议 |
 | [docs/g0-baseline/task-spec.md](docs/g0-baseline/task-spec.md) | T1–T3 任务规范：四态结论、E1–E4 错误等级、能力问题、试标模板 |
-| [docs/g0-baseline/upstream-lock.md](docs/g0-baseline/upstream-lock.md) | 基线锁定（5336b771）与团队差异清单 |
-| [docs/g0-baseline/data-manifest-template.md](docs/g0-baseline/data-manifest-template.md) | 数据四层盘点模板与划分规则 |
-| [docs/migration-report.md](docs/migration-report.md) | 第二模板迁移实验（N18）：修改范围与复用证据 |
-| [docs/platform-integration.md](docs/platform-integration.md) | Nexent 平台接入全程：架构、修复记录、B0 运行证据 |
-| docs/evidence/*.sse | 平台级执行对话流原始归档（L-2026-10 / L-2026-11） |
+| [docs/g0-baseline/upstream-lock.md](docs/g0-baseline/upstream-lock.md) | Nexent 基线锁定与团队差异清单 |
+| [docs/g0-baseline/data-manifest-template.md](docs/g0-baseline/data-manifest-template.md) | 数据分层盘点模板与划分规则 |
+| [docs/migration-report.md](docs/migration-report.md) | 第二组织模板迁移实验：修改范围与复用证据 |
+| [docs/platform-integration.md](docs/platform-integration.md) | Nexent 平台接入全程：架构、修复记录、运行证据 |
+| docs/evidence/*.sse | 平台执行对话流原始归档 |
