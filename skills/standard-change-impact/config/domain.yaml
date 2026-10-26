@@ -1,0 +1,13 @@
+# Domain configuration for standard-change-impact.
+impact:
+  dependency_propagation: true
+  predicate_scan: true
+  unknown_scope_policy: widen_to_review
+replay:
+  partial: true
+  full_reference: true
+  leak_detector: block_publication
+review_lists:
+  - must_review
+  - unaffected
+  - uncertain

@@ -1,0 +1,16 @@
+{
+  "document_type": "standard",
+  "standard_id": "SPEC-E",
+  "version": "v2",
+  "clauses": [
+    {
+      "clause_no": "4.1",
+      "feature_id": "RUN-1",
+      "parameter": "runout_tolerance_mm",
+      "value_mm": 0.008,
+      "comparison": "<=",
+      "scope": "orders_on_or_after_effective",
+      "effective_from": "2026-11-15"
+    }
+  ]
+}

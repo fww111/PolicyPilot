@@ -1,0 +1,23 @@
+{
+  "scenario": "org-b-shaft-template",
+  "synthetic": true,
+  "split": "migration",
+  "note": "Second template for the migration experiment (plan 3.4: same industry, another product family / organization). Organization B uses its own column spellings, numbering style and SPEC-E standards; recorded natively in mm.",
+  "inspection_columns": {
+    "batch_no": "lot_no",
+    "part_no": "article",
+    "order_date": "ordered_on",
+    "feature_id": "characteristic",
+    "measured_value": "reading",
+    "unit": "unit_of_measure",
+    "measured_at": "measured_on",
+    "instrument_id": "gauge_id"
+  },
+  "files": [
+    {"file": "drawing_e.json", "asset_id": "AST-DRAWING-E", "category": "drawing", "parser": "synthetic-json@1"},
+    {"file": "inspection_e.csv", "asset_id": "AST-INSPECTION-E", "category": "inspection_record", "parser": "synthetic-csv@1"},
+    {"file": "calibration_e.json", "asset_id": "AST-CALIBRATION-E", "category": "calibration", "parser": "synthetic-json@1"},
+    {"file": "standard_e_v1.json", "asset_id": "AST-STANDARD-E-V1", "category": "standard", "parser": "synthetic-json@1"},
+    {"file": "standard_e_v2.json", "asset_id": "AST-STANDARD-E-V2", "category": "standard", "parser": "synthetic-json@1"}
+  ]
+}

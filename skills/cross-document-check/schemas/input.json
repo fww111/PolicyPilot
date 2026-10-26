@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["batch_no"],
+  "properties": {
+    "batch_no": {"type": "string", "pattern": "^L-[0-9]{4}-[0-9]{2}$"},
+    "feature_id": {"type": "string"},
+    "revoked_anchor_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

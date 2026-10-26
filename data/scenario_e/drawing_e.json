@@ -1,0 +1,8 @@
+{
+  "document_type": "drawing",
+  "part_no": "SHF-200",
+  "part_name": "drive shaft",
+  "features": [
+    {"feature_id": "RUN-1", "name": "radial runout", "drawing_ref": "DWG-77/B2"}
+  ]
+}

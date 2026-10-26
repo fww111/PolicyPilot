@@ -1,0 +1,5 @@
+{
+  "name": "expired-calibration-blocks-verdict",
+  "input": {"batch_no": "L-2026-11"},
+  "expected": {"status": "unknown", "missing_contains": "re-inspection"}
+}

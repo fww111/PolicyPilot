@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local scratch / runtime artifacts
+agent_payload.json
+run_payload.json
+run_output*.txt
+upd*.json
+
+# OS
+Thumbs.db
+.DS_Store

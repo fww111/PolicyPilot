@@ -1,0 +1,7 @@
+{
+  "document_type": "calibration_list",
+  "certificates": [
+    {"instrument_id": "M-07", "certificate_no": "CAL-M07-2026", "valid_from": "2026-01-01", "valid_to": "2026-12-31"},
+    {"instrument_id": "M-09", "certificate_no": "CAL-M09-2026", "valid_from": "2026-01-01", "valid_to": "2026-10-01"}
+  ]
+}

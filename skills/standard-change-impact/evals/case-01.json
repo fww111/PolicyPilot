@@ -1,0 +1,18 @@
+{
+  "name": "v2-publication-reviews-only-covered-orders",
+  "input": {"standard_id": "SPEC-D", "old_version": "v1", "new_version": "v2"},
+  "expected": {
+    "publication_status": "published",
+    "regression_result": "passed",
+    "affected_count": 2,
+    "verdicts": {
+      "L-2026-13": "needs_review",
+      "L-2026-14": "needs_review",
+      "L-2026-10": "applicable_unchanged"
+    },
+    "status_changes": [
+      ["L-2026-13", "supported", "refuted"],
+      ["L-2026-14", "supported", "conflict"]
+    ]
+  }
+}

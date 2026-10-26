@@ -1,0 +1,5 @@
+{
+  "name": "in-tolerance-and-calibrated-batch-passes",
+  "input": {"batch_no": "L-2026-10"},
+  "expected": {"status": "supported", "standard_version": "v1", "missing_items_empty": true}
+}

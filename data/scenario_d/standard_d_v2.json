@@ -1,0 +1,16 @@
+{
+  "document_type": "standard",
+  "standard_id": "SPEC-D",
+  "version": "v2",
+  "clauses": [
+    {
+      "clause_no": "5.2",
+      "feature_id": "F-1",
+      "parameter": "flatness_tolerance_mm",
+      "value_mm": 0.004,
+      "comparison": "<=",
+      "scope": "orders_on_or_after_effective",
+      "effective_from": "2026-11-01"
+    }
+  ]
+}

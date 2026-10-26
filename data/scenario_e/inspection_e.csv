@@ -1,0 +1,5 @@
+lot_no,article,ordered_on,characteristic,reading,unit_of_measure,measured_on,gauge_id
+N-1001,SHF-200,2026-09-10,RUN-1,0.0072,mm,2026-10-05,INS-31
+N-1002,SHF-200,2026-09-12,RUN-1,0.0125,mm,2026-10-06,INS-31
+N-1003,SHF-200,2026-09-15,RUN-1,0.0090,mm,2026-10-08,INS-32
+N-1004,SHF-200,2026-11-20,RUN-1,0.0090,mm,2026-11-25,INS-31

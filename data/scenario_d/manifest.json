@@ -1,0 +1,12 @@
+{
+  "scenario": "plan-3.3-threaded-example",
+  "synthetic": true,
+  "note": "Synthetic acceptance sample from improvement plan section 3.3. Not real standards or company records.",
+  "files": [
+    {"file": "drawing_a.json", "asset_id": "AST-DRAWING-A", "category": "drawing", "parser": "synthetic-json@1"},
+    {"file": "inspection_b.csv", "asset_id": "AST-INSPECTION-B", "category": "inspection_record", "parser": "synthetic-csv@1"},
+    {"file": "calibration_c.json", "asset_id": "AST-CALIBRATION-C", "category": "calibration", "parser": "synthetic-json@1"},
+    {"file": "standard_d_v1.json", "asset_id": "AST-STANDARD-D-V1", "category": "standard", "parser": "synthetic-json@1"},
+    {"file": "standard_d_v2.json", "asset_id": "AST-STANDARD-D-V2", "category": "standard", "parser": "synthetic-json@1"}
+  ]
+}
